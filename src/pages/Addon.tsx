@@ -13,7 +13,7 @@ const AddonPage: FC = () => {
             <div className="flex flex-col items-center justify-center text-center p-3">
                 <div className="flex justify-center items-center flex-col w-full">
                     <h1 className="text-white tablet:text-[10vw] text-[100px] font-bold">{addon.title.toUpperCase()}</h1>
-                    <div className="text-white text-[20px] w-[50%]">{addon.description}</div>
+                    <div className="text-white text-[20px] w-[50%] tablet:w-[95vw]">{addon.description}</div>
                 </div>
                 <div className="flex flex-col w-full items-center justify-center">
                     <h1 className="my-10 text-white font-bold tablet:text-[30px] text-[50px]">Showcase video</h1>
