@@ -10,8 +10,13 @@ export default {
         "blueborder": "#8CA6E9",
         "bluetext": "#A1B1FE",
         "blueshadow": "#1C3362"
-      }
+      },
     },
+    screens: {
+      tablet: {
+        max: "1200px"
+      }
+    }
   },
   plugins: [],
 }
