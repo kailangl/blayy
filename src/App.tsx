@@ -1,6 +1,13 @@
+import { Route, Routes } from "react-router-dom";
+import InitialPage from "./components/InitialPage";
+import AddonPage from "./pages/Addon";
+
 function App() {
     return (
-        <div className="text-blue-500">Hello world!</div>
+        <Routes>
+            <Route path="/" element={<InitialPage/>} />
+            <Route path="/:addon" element={<AddonPage/>} />
+        </Routes>
     )
 }
 
