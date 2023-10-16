@@ -7,7 +7,9 @@ export default {
     extend: {
       colors: {
         "bluebg": "#242B3C",
-        "blueborder": "#8CA6E9"
+        "blueborder": "#8CA6E9",
+        "bluetext": "#A1B1FE",
+        "blueshadow": "#1C3362"
       }
     },
   },
