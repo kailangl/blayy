@@ -24,7 +24,7 @@ const InitialPage: FC = (): React.ReactNode => {
                 </header>
                 <section className="w-[100vw] flex justify-center max-w-[1500px]">
                     <div className="grid grid-cols-2 tablet:grid-cols-1 place-items-center gap-4 mb-4">
-                        {addons.map(addon => (
+                        {addons.addons.map(addon => (
                             <Link to={addon.link} className="w-[600px] tablet:w-[95vw] h-[300px] hover:shadow-blueshadow hover:shadow-2xl transition-all duration-300 border-4 border-blueborder flex items-center justify-center">
                                 <div className="m-3 h-full w-full flex border-4 border-t-0 border-b-0 border-blueborder">
                                     <div className="bg-bluebg border-b-0 border-l-0 border-blueborder text-bluetext border-4 h-[30px] absolute mt-[263px] text-center font-bold px-2">{addon.title}</div>
