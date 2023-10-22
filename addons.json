@@ -6,7 +6,7 @@
             "video": "https://youtu.be/M-broNw4UR8",
             "download": "https://linkvertise.com/345156/ultimate-stone?o=sharing",
             "image": "https://i.ytimg.com/vi/M-broNw4UR8/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCTvn3o6zd4-DbTWWz4hwyFkXFiuA",
-            "link": "/ultimestone"
+            "link": "/addon/ultimestone"
         },
         {
             "title": "Harder Reality",
@@ -14,7 +14,7 @@
             "video": "https://youtu.be/tSuioCWD3ys",
             "download": "https://linkvertise.com/345156/harder-reality/1",
             "image": "https://modbay.org/uploads/posts/2023-10/harder-reality-main-cover.png",
-            "link": "/harderreality"
+            "link": "/addon/harderreality"
         },
         {
             "title": "SkilledItems",
@@ -22,7 +22,7 @@
             "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
             "download": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
             "image": "https://api.mcpedl.com/storage/submissions/73999/113/1696983358277_1-520x245.png",
-            "link": "/skilleditems"
+            "link": "/addon/skilleditems"
         },
         {
             "title": "Prismarite Addon",
@@ -30,7 +30,7 @@
             "video": "https://youtu.be/Sms4Y6cd-UM",
             "download": "https://www.vatonage.com/post/prismarite-addon",
             "image": "https://api.mcpedl.com/storage/submissions/108643/100/pegueiojeito_1-520x245.png",
-            "link": "/prismarite"
+            "link": "/addon/prismarite"
         }
     ],
     "addonspacks": [
@@ -40,7 +40,7 @@
             "video": "https://youtu.be/Sms4Y6cd-UM",
             "download": "https://www.vatonage.com/post/prismarite-addon",
             "image": "https://api.mcpedl.com/storage/submissions/108643/100/pegueiojeito_1-520x245.png",
-            "link": "/ultimestone4"
+            "link": "/addonpack/prismarite"
         }
     ]
 }
