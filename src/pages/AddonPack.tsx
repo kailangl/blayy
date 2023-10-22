@@ -20,7 +20,7 @@ const AddonPackPage: FC = () => {
                     <a href={addonpack.video} target="_blank">
                         <img className="max-w-[500px] tablet:w-[95vw]" src={addonpack.image} />
                     </a>
-                    <a href={addonpack.download} target="_blank" className="hover:bg-blueborder shadow-blueshadow shadow-xl hover:text-black transtion-colors duration-300 border-4 border-blueborder text-bluetext cursor-pointer bg-bluebg text-center p-2 px-4 font-bold flex flex-grow justify-center mt-10 w-[400px] tablet:w-[95vw]">Download Addon</a>
+                    <a href={addonpack.download} target="_blank" className="hover:bg-blueborder shadow-blueshadow shadow-xl hover:text-black transtion-colors duration-300 border-4 border-blueborder text-bluetext cursor-pointer bg-bluebg text-center p-2 px-4 font-bold flex flex-grow justify-center mt-10 w-[400px] tablet:w-[95vw]">Download AddonPack</a>
                 </div>
             </div>
         </section>
