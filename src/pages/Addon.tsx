@@ -6,7 +6,7 @@ const AddonPage: FC = () => {
     const params = useParams<Params>();
     const addonName = params.addon;
 
-    const addon = addons.find(addon => addon.link.replace("/", "") === addonName);
+    const addon = addons.addons.find(addon => addon.link.replace("/", "") === addonName);
 
     return addon ? (
         <section className="w-[100vw] max-w-[1500vw] flex items-center justify-center overflow-x-hidden">
