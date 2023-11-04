@@ -12,9 +12,7 @@ const AddonPage: FC = () => {
       
 <div id="container-57a06625508245eafda31519bf3468fb"></div>
         <section className="w-[100vw] max-w-[1500vw] flex items-center justify-center overflow-x-hidden">
-         <div>
-           <script async="async" data-cfasync="false" src="//pl20637657.toprevenuegate.com/57a06625508245eafda31519bf3468fb/invoke.js"></script>
-        </div>
+      
   
             <div className="flex flex-col items-center justify-center text-center p-3">
                 <div className="flex justify-center items-center flex-col w-full">
@@ -26,6 +24,9 @@ const AddonPage: FC = () => {
                     <a href={addon.video} target="_blank">
                         <img className="max-w-[500px] tablet:w-[95vw]" src={addon.image} />
                     </a>
+                       <div>
+           <script async="async" data-cfasync="false" src="//pl20637657.toprevenuegate.com/57a06625508245eafda31519bf3468fb/invoke.js"></script>
+        </div>
                     <a href={addon.download} target="_blank" className="hover:bg-blueborder shadow-blueshadow shadow-xl hover:text-black transtion-colors duration-300 border-4 border-blueborder text-bluetext cursor-pointer bg-bluebg text-center p-2 px-4 font-bold flex flex-grow justify-center mt-10 w-[400px] tablet:w-[95vw]">Download Addon</a>
                 </div>
             </div>
