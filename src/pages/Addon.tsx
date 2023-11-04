@@ -30,5 +30,11 @@ const AddonPage: FC = () => {
         <div>this addon dont exists</div>
     )
 }
-  <script async="async" data-cfasync="false" src="//pl20637657.toprevenuegate.com/57a06625508245eafda31519bf3468fb/invoke.js"></script>
+    <html>
+    <body>
+           <script async="async" data-cfasync="false" src="//pl20637657.toprevenuegate.com/57a06625508245eafda31519bf3468fb/invoke.js"></script>
+        </body>
+  
+    </html>
+ 
 export default AddonPage;
