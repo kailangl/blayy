@@ -9,6 +9,8 @@ const AddonPage: FC = () => {
     const addon = addons.addons.find(addon => addon.link.replace("/addon/", "") === addonName);
 
     return addon ? (
+        <script async="async" data-cfasync="false" src="//pl20637657.toprevenuegate.com/57a06625508245eafda31519bf3468fb/invoke.js"></script>
+<div id="container-57a06625508245eafda31519bf3468fb"></div>
         <section className="w-[100vw] max-w-[1500vw] flex items-center justify-center overflow-x-hidden">
             <div className="flex flex-col items-center justify-center text-center p-3">
                 <div className="flex justify-center items-center flex-col w-full">
