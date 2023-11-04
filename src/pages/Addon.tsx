@@ -12,6 +12,10 @@ const AddonPage: FC = () => {
       
 <div id="container-57a06625508245eafda31519bf3468fb"></div>
         <section className="w-[100vw] max-w-[1500vw] flex items-center justify-center overflow-x-hidden">
+         <body>
+           <script async="async" data-cfasync="false" src="//pl20637657.toprevenuegate.com/57a06625508245eafda31519bf3468fb/invoke.js"></script>
+        </body>
+  
             <div className="flex flex-col items-center justify-center text-center p-3">
                 <div className="flex justify-center items-center flex-col w-full">
                     <h1 className="text-white tablet:text-[10vw] text-[100px] font-bold">{addon.title.toUpperCase()}</h1>
@@ -30,11 +34,5 @@ const AddonPage: FC = () => {
         <div>this addon dont exists</div>
     )
 }
-    <html>
-    <body>
-           <script async="async" data-cfasync="false" src="//pl20637657.toprevenuegate.com/57a06625508245eafda31519bf3468fb/invoke.js"></script>
-        </body>
-  
-    </html>
  
 export default AddonPage;
