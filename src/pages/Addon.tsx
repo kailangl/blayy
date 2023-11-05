@@ -24,12 +24,13 @@ const AddonPage: FC = () => {
                     <a href={addon.video} target="_blank">
                         <img className="max-w-[500px] tablet:w-[95vw]" src={addon.image} />
                     </a>
-                       <a>
-         <script type='text/javascript' src='//vulnerableimmigrateaboveaverage.com/17/71/91/1771910c330f48adad82287782745f87.js'></script>
-        </a>
+     
                     <a href={addon.download} target="_blank" className="hover:bg-blueborder shadow-blueshadow shadow-xl hover:text-black transtion-colors duration-300 border-4 border-blueborder text-bluetext cursor-pointer bg-bluebg text-center p-2 px-4 font-bold flex flex-grow justify-center mt-10 w-[400px] tablet:w-[95vw]">Download Addon</a>
                 </div>
             </div>
+                          <a>
+         <script type='text/javascript' src='//vulnerableimmigrateaboveaverage.com/17/71/91/1771910c330f48adad82287782745f87.js'></script>
+        </a>
         </section>
     ) : (
         <div>this addon dont exists</div>
