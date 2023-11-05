@@ -8,7 +8,7 @@ const AddonPackPage: FC = () => {
 
     const addonpack = addons.addonspacks.find(addon => addon.link.replace("/addonpack/", "") === addonName);
 
-    return Aaddonpack ? (
+    return addonpack ? (
         <section className="w-[100vw] max-w-[1500vw] flex items-center justify-center overflow-x-hidden">
             <div className="flex flex-col items-center justify-center text-center p-3">
                 <div className="flex justify-center items-center flex-col w-full">
