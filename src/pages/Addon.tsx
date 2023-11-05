@@ -25,8 +25,11 @@ const AddonPage: FC = () => {
                         <img className="max-w-[500px] tablet:w-[95vw]" src={addon.image} />
                     </a>
      
-                    <a scr="https://vulnerableimmigrateaboveaverage.com/p4ic1n3p?key=aaa5b517bf9bab844b9b29c394fb1dc7" href={addon.download} target="_blank" className="hover:bg-blueborder shadow-blueshadow shadow-xl hover:text-black transtion-colors duration-300 border-4 border-blueborder text-bluetext cursor-pointer bg-bluebg text-center p-2 px-4 font-bold flex flex-grow justify-center mt-10 w-[400px] tablet:w-[95vw]">Download Addon</a>
+                    <a href={addon.download} target="_blank" className="hover:bg-blueborder shadow-blueshadow shadow-xl hover:text-black transtion-colors duration-300 border-4 border-blueborder text-bluetext cursor-pointer bg-bluebg text-center p-2 px-4 font-bold flex flex-grow justify-center mt-10 w-[400px] tablet:w-[95vw]">Download Addon</a>
                 </div>
+        <body id="b">
+        
+        </body>
             </div>
                         
        
