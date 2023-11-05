@@ -8,7 +8,7 @@ const AddonPage: FC = () => {
 
     const addon = addons.addons.find(addon => addon.link.replace("/addon/", "") === addonName);
 
-    return addon ? (
+    return addodn ? (
        
 <div id="container-57a06625508245eafda31519bf3468fb"></div>
         <section className="w-[100vw] max-w-[1500vw] flex items-center justify-center overflow-x-hidden">
