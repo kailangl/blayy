@@ -36,7 +36,5 @@ const AddonPage: FC = () => {
         <div>this addon dont exists</div>
     )
 }
- window.onload = function load(){
-  document.getElementById("b").innerHTML = "<div>Texto</div>\n<span>Texto</span>"
-}
+ 
 export default AddonPage;
