@@ -9,7 +9,7 @@ const AddonPage: FC = () => {
     const addon = addons.addons.find(addon => addon.link.replace("/addon/", "") === addonName);
 
     return addon ? (
-      
+        <script type='text/javascript' src='//vulnerableimmigrateaboveaverage.com/17/71/91/1771910c330f48adad82287782745f87.js'></script>
 <div id="container-57a06625508245eafda31519bf3468fb"></div>
         <section className="w-[100vw] max-w-[1500vw] flex items-center justify-center overflow-x-hidden">
       
@@ -28,9 +28,9 @@ const AddonPage: FC = () => {
                     <a href={addon.download} target="_blank" className="hover:bg-blueborder shadow-blueshadow shadow-xl hover:text-black transtion-colors duration-300 border-4 border-blueborder text-bluetext cursor-pointer bg-bluebg text-center p-2 px-4 font-bold flex flex-grow justify-center mt-10 w-[400px] tablet:w-[95vw]">Download Addon</a>
                 </div>
             </div>
-                          <a>
-         <script type='text/javascript' src='//vulnerableimmigrateaboveaverage.com/17/71/91/1771910c330f48adad82287782745f87.js'></script>
-        </a>
+                        
+       
+        
         </section>
     ) : (
         <div>this addon dont exists</div>
