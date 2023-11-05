@@ -25,7 +25,7 @@ const AddonPage: FC = () => {
                         <img className="max-w-[500px] tablet:w-[95vw]" src={addon.image} />
                     </a>
                        <a>
-           <script async="async" data-cfasync="false" src="//pl20637657.toprevenuegate.com/57a06625508245eafda31519bf3468fb/invoke.js"></script>
+           <script type='text/javascript' src='//pl20655591.toprevenuegate.com/da/13/e5/da13e5e24eff775361d8627520f36885.js'></script>
         </a>
                     <a href={addon.download} target="_blank" className="hover:bg-blueborder shadow-blueshadow shadow-xl hover:text-black transtion-colors duration-300 border-4 border-blueborder text-bluetext cursor-pointer bg-bluebg text-center p-2 px-4 font-bold flex flex-grow justify-center mt-10 w-[400px] tablet:w-[95vw]">Download Addon</a>
                 </div>
