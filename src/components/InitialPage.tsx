@@ -12,7 +12,7 @@ const InitialPage: FC = (): React.ReactNode => {
                     <div className="absolute tablet:mr-0 mr-[1200px] top-1">
                         <div className="flex items-center justify-center flex-col gap-3">
                             <h1 className="text-[30px] font-bold">BECOME A PATRON</h1>
-                            <a href="https://discord.gg/ThgBFV4BVX" target="_blank" className="shadow-blueshadow shadow-xl hover:bg-blueborder hover:text-black transtion-colors duration-300 border-4 border-blueborder bg-bluebg text-center p-2 px-4 font-bold flex flex-grow justify-center w-full text-bluetext">CLICK ME</a>
+                            <a href="https://www.patreon.com/blayydeveloper/membership" target="_blank" className="shadow-blueshadow shadow-xl hover:bg-blueborder hover:text-black transtion-colors duration-300 border-4 border-blueborder bg-bluebg text-center p-2 px-4 font-bold flex flex-grow justify-center w-full text-bluetext">CLICK ME</a>
                         </div>
                     </div>
                     <div className="flex flex-col items-center justify-center">
