@@ -47,9 +47,6 @@ const AddonPage: FC = () => {
     const addonName = params.addon;
 
     const addon = addons.addons.find(addon => addon.link.replace("/addon/", "") === addonName);
-<CustomLink url="https://example.com" theme="minecraft" tier="2">
-  Fantastic Bags
-</CustomLink>
 
     return addon ? (
         <>
