@@ -1,20 +1,12 @@
 {
     "addons": [
-        {
-            "title": "Ultimate Stone",
-            "description": "this addon adds a new stone that is craftable using various types of stone from the game.",
-            "video": "https://youtu.be/M-broNw4UR8",
-            "download": "https://linkvertise.com/345156/ultimate-stone?o=sharing",
-            "image": "https://i.ytimg.com/vi/M-broNw4UR8/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCTvn3o6zd4-DbTWWz4hwyFkXFiuA",
-            "link": "/addon/ultimestone"
-        },
-        {
-            "title": "Harder Reality",
-            "description": "This addon adds realistic mechanics very similar to rl craft modpack.",
-            "video": "https://youtu.be/tSuioCWD3ys",
-            "download": "https://linkvertise.com/345156/harder-reality/1",
-            "image": "https://modbay.org/uploads/posts/2023-10/harder-reality-main-cover.png",
-            "link": "/addon/harderreality"
+           {
+            "title": "Fantastic Additions",
+            "description": "This add-on adds new items with amazing utilities to your game.",
+            "video": "https://youtu.be/CX0fjVQIG_4",
+            "download": "https://loot-link.com/s?m9lY",
+            "image": "https://modbay.org/uploads/posts/2024-01/fantastic-additions-main-cover.jpg",
+            "link": "/addon/fantastic-additions"
         },
         {
             "title": "SkilledItems",
@@ -31,19 +23,11 @@
             "download": "https://www.vatonage.com/post/prismarite-addon",
             "image": "https://api.mcpedl.com/storage/submissions/108643/100/pegueiojeito_1-520x245.png",
             "link": "/addon/prismarite"
-        },
-           {
-            "title": "Prismarite Addon",
-            "description": "This addon expands the usefulness of netherite by creating a new template. With it, you can create armor and prismarite tools to help with your aquatic experience. With this addon you can explore several oceans and even mine underwater without any worry.",
-            "video": "https://youtu.be/Sms4Y6cd-UM",
-            "download": "https://www.vatonage.com/post/prismarite-addon",
-            "image": "https://api.mcpedl.com/storage/submissions/108643/100/pegueiojeito_1-520x245.png",
-            "link": "/addon/prismaritee"
         }
     ],
     "addonspacks": [
         {
-            "title": "Prismarite Addon",
+            "title": "Stable Modpack",
             "description": "This addon expands the usefulness of netherite by creating a new template. With it, you can create armor and prismarite tools to help with your aquatic experience. With this addon you can explore several oceans and even mine underwater without any worry.",
             "video": "https://youtu.be/Sms4Y6cd-UM",
             "download": "https://www.vatonage.com/post/prismarite-addon",
