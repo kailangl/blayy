@@ -9,7 +9,7 @@ export default {
         "bluebg": "#242B3C",
         "blueborder": "#62a8fe",
         "bluetext": "#b960e4",
-        "blueshadow": "#c5fefe"
+        "blueshadow": "#b960e4"
       },
     },
     screens: {
