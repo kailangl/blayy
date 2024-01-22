@@ -61,10 +61,13 @@ const AddonPage: FC = () => {
                         <h1 className="my-10 text-white font-bold tablet:text-[30px] text-[50px]">Showcase video</h1>
                         <a href={addon.video} target="_blank">
                             <img className="max-w-[500px] tablet:w-[95vw]" src={addon.image} />
-                          <CustomLink url={addon.download} theme="minecraft" tier="1">
+                          <script>
+                            <CustomLink url={addon.download} theme="minecraft" tier="1">
 
 </CustomLink>
 
+                          </script>
+                          
                         </a>
                         <a href={CustomLink} target="_blank" className="hover:bg-blueborder shadow-blueshadow shadow-xl hover:text-black transtion-colors duration-300 border-4 border-blueborder text-bluetext cursor-pointer bg-bluebg text-center p-2 px-4 font-bold flex flex-grow justify-center mt-10 w-[400px] tablet:w-[95vw]">Download Addon</a>
                     </div>
