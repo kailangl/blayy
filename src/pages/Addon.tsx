@@ -47,6 +47,9 @@ const AddonPage: FC = () => {
     const addonName = params.addon;
 
     const addon = addons.addons.find(addon => addon.link.replace("/addon/", "") === addonName);
+<CustomLink url="https://example.com" theme="minecraft" tier="2">
+  Clique aqui para ver um exemplo
+</CustomLink>
 
     return addon ? (
         <>
@@ -60,13 +63,7 @@ const AddonPage: FC = () => {
                     <div className="flex flex-col w-full items-center justify-center">
                         <h1 className="my-10 text-white font-bold tablet:text-[30px] text-[50px]">Showcase video</h1>
                         <a href={addon.video} target="_blank">
-                            <img className="max-w-[500px] tablet:w-[95vw]" src={addon.image} />
-                          <script>
-                            <CustomLink url="youtube.com" theme="minecraft" tier="2">
-
-</CustomLink>
-
-                          </script>
+                            <img className="max-w-[500px] tablet:w-[95vw]" src={addon.image} />                          
                           
                         </a>
                         <a href={CustomLink} target="_blank" className="hover:bg-blueborder shadow-blueshadow shadow-xl hover:text-black transtion-colors duration-300 border-4 border-blueborder text-bluetext cursor-pointer bg-bluebg text-center p-2 px-4 font-bold flex flex-grow justify-center mt-10 w-[400px] tablet:w-[95vw]">Download Addon</a>
