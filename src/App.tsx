@@ -5,11 +5,13 @@ import AddonPackPage from "./pages/AddonPack";
 
 function App() {
     return (
-        <Routes>
-            <Route path="/" element={<InitialPage/>} />
-            <Route path="/addon/:addon" element={<AddonPage/>} />
-            <Route path="/addonpack/:addon" element={<AddonPackPage/>} />
-        </Routes>
+        <main className="overflow-x-hidden">
+            <Routes>
+                <Route path="/" element={<InitialPage />} />
+                <Route path="/addon/:addon" element={<AddonPage />} />
+                <Route path="/addonpack/:addon" element={<AddonPackPage />} />
+            </Routes>
+        </main>
     )
 }
 
