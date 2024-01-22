@@ -62,7 +62,7 @@ const AddonPage: FC = () => {
                         <a href={addon.video} target="_blank">
                             <img className="max-w-[500px] tablet:w-[95vw]" src={addon.image} />
                           <script>
-                            <CustomLink url={addon.download} theme="minecraft" tier="1">
+                            <CustomLink url="youtube.com" theme="minecraft" tier="1">
 
 </CustomLink>
 
