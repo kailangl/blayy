@@ -6,8 +6,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        "bluebg": "#061d37",
-        "blueborder": "#9d18e8",
+        "bluebg": "#281e28",
+        "blueborder": "#ffffff",
         "bluetext": "#9d18e8",
         "blueshadow": "#3a194c"
       },
