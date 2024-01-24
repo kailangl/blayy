@@ -3,7 +3,7 @@ import addons from "../../addons.json";
 import { Link } from "react-router-dom";
 
 const InitialPage: FC = (): React.ReactNode => {
-    const [selected, setSelected] = useState<1 | 3>(1);
+    const [selected, setSelected] = useState<1 | 2>(1);
 
     return (
         <main className="w-[100vw] bg-bluebg bg-fixed overflow-x-hidden text-white flex justify-center">
