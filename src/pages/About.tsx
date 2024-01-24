@@ -1,9 +1,6 @@
 import { FC } from "react";
-import { Params, useParams } from "react-router-dom";
 
 const AboutPage: FC = () => {
-    const params = useParams<Params>();
-
    <>
             <section className="w-[100vw] max-w-[1500vw] flex items-center justify-center overflow-x-hidden">
                 <div className="flex flex-col items-center justify-center text-center p-3">
