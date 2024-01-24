@@ -3,7 +3,7 @@ import addons from "../../addons.json";
 import { Link } from "react-router-dom";
 
 const InitialPage: FC = (): React.ReactNode => {
-    const [selected, setSelected] = useState<1 | 2>(1);
+    const [selected, setSelected] = useState<1 | 3>(1);
 
     return (
         <main className="w-[100vw] bg-bluebg bg-fixed overflow-x-hidden text-white flex justify-center">
@@ -20,7 +20,7 @@ const InitialPage: FC = (): React.ReactNode => {
                         <div className="flex gap-3 text-bluetext tablet:w-[95vw] w-[600px]">
                             <button onClick={() => setSelected(2)} className={`${selected === 2 ? "bg-blueborder text-black" : ""} hover:bg-blueborder shadow-blueshadow shadow-xl hover:text-black transtion-colors duration-300 border-4 border-blueborder bg-bluebg text-center p-2 px-4 font-bold flex flex-grow justify-center items-center`}>MODPACKS</button>
                             <button onClick={() => setSelected(1)} className={`${selected === 1 ? "bg-blueborder text-black" : ""} hover:bg-blueborder shadow-blueshadow shadow-xl hover:text-black transtion-colors duration-300 border-4 border-blueborder bg-bluebg text-center p-2 px-4 font-bold flex flex-grow justify-center items-center`}>ADDONS</button>
-                            <a href="/about-us" target="_blank" className="hover:bg-blueborder shadow-blueshadow shadow-xl hover:text-black transtion-colors duration-300 border-4 border-blueborder bg-bluebg text-center p-2 px-4 font-bold flex flex-grow justify-center items-center">ABOUT-US</a>
+                             <button onClick={() => setSelected(3)} className={`${selected === 3 ? "bg-blueborder text-black" : ""} hover:bg-blueborder shadow-blueshadow shadow-xl hover:text-black transtion-colors duration-300 border-4 border-blueborder bg-bluebg text-center p-2 px-4 font-bold flex flex-grow justify-center items-center`}>ABOUT</button>
                         </div>
                     </div>
                 </header>
@@ -47,6 +47,10 @@ const InitialPage: FC = (): React.ReactNode => {
                                     </div>
                                 </Link>
                             ))
+                        ) : selected === 3 ? (
+                           function teste1() {
+    window.open('www.google.com.br', '_blank');
+}
                         ) : (
                             <div>sei lá você bugou a página seu inútil</div>
                         )}
