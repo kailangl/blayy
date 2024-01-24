@@ -47,10 +47,8 @@ const InitialPage: FC = (): React.ReactNode => {
                                     </div>
                                 </Link>
                             ))
-                        ) : selected === 3 ? (
-                           function teste1() {
+                        ) : selected === 3 ? (             
     window.open('www.google.com.br', '_blank');
-}
                         ) : (
                             <div>sei lá você bugou a página seu inútil</div>
                         )}
