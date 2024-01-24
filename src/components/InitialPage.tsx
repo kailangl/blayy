@@ -16,11 +16,12 @@ const InitialPage: FC = (): React.ReactNode => {
                         </div>
                     </div>
                     <div className="flex flex-col items-center justify-center">
-                        <h1 className="font-bold tablet:text-[30px] text-[100px] drop-shadow-xl shadow-bluetext">BLAYY DEVELOPER</h1>
+                        <h1 className="font-bold tablet:text-[30px] text-[100px] drop-shadow-xl shadow-bluetext">ADDON LIST</h1>
                         <div className="flex gap-3 text-bluetext tablet:w-[95vw] w-[600px]">
                             <button onClick={() => setSelected(2)} className={`${selected === 2 ? "bg-blueborder text-black" : ""} hover:bg-blueborder shadow-blueshadow shadow-xl hover:text-black transtion-colors duration-300 border-4 border-blueborder bg-bluebg text-center p-2 px-4 font-bold flex flex-grow justify-center items-center`}>MODPACKS</button>
                             <button onClick={() => setSelected(1)} className={`${selected === 1 ? "bg-blueborder text-black" : ""} hover:bg-blueborder shadow-blueshadow shadow-xl hover:text-black transtion-colors duration-300 border-4 border-blueborder bg-bluebg text-center p-2 px-4 font-bold flex flex-grow justify-center items-center`}>ADDONS</button>
-                           
+                            <a href="https://discord.gg/ThgBFV4BVX" target="_blank" className="hover:bg-blueborder shadow-blueshadow shadow-xl hover:text-black transtion-colors duration-300 border-4 border-blueborder bg-bluebg text-center p-2 px-4 font-bold flex flex-grow justify-center items-center">DISCORD</a>
+                        </div>
                     </div>
                 </header>
                 <div className="flex w-full items-center justify-center">
