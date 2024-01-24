@@ -1,6 +1,6 @@
 import { FC } from "react";
 
-const AboutPage: FC = (): React.ReactNode => {
+const AddonPage: FC = () => {
    return (
       <>
      
