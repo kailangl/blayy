@@ -28,16 +28,7 @@ const AddonPage: FC = () => {
                     </div>
 
                 </div>
-                <script type="text/javascript">
-	atOptions = {
-		'key' : '292768e83f37e67a411e6f4861f600d1',
-		'format' : 'iframe',
-		'height' : 300,
-		'width' : 160,
-		'params' : {}
-	};
-	document.write('<scr' + 'ipt type="text/javascript" src="//www.topcreativeformat.com/292768e83f37e67a411e6f4861f600d1/invoke.js"></scr' + 'ipt>');
-</script>
+             
             </section>
         </>
     ) : (
