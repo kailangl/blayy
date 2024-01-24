@@ -9,4 +9,5 @@
 }
 .imga {
     justify-content: center;
+    display: flex;
 }
