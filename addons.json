@@ -25,12 +25,12 @@
             "link": "/addon/portable-furnaces"
         },
         {
-            "title": "SkilledItems",
+            "title": "Skilled Items",
             "description": "This addon adds items with special abilities, all items have an interesting mechanic that will contribute to your survival. All tools are enchanting and repairable, and each one has its advantages.",
             "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
             "download": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
             "image": "https://api.mcpedl.com/storage/submissions/73999/113/1696983358277_1-520x245.png",
-            "link": "/addon/skilleditems"
+            "link": "/addon/skilled-items"
         },
         {
             "title": "Prismarite Addon",
@@ -38,7 +38,15 @@
             "video": "https://youtu.be/Sms4Y6cd-UM",
             "download": "https://www.vatonage.com/post/prismarite-addon",
             "image": "https://api.mcpedl.com/storage/submissions/108643/100/pegueiojeito_1-520x245.png",
-            "link": "/addon/prismarite"
+            "link": "/addon/prismarite-addon"
+        },
+          {
+            "title": "Magma Expansion",
+            "description": "This addon adds new items to improve your experience in nether, and gives more utility to magma cream and netherite ingot.All the items of this addon have some special utility, this makes the player have a fun experience even though the addon is simple.",
+            "video": "https://youtu.be/mHXojsP_7lo",
+            "download": "https://www.vatonage.com/post/magma-expansion",
+            "image": "https://api.mcpedl.com/storage/submissions/108195/100/169482457605601_1-520x245.png",
+            "link": "/addon/magma-expansion"
         }
     ],
     "addonspacks": [
