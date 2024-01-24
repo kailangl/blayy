@@ -11,6 +11,7 @@ function App() {
                 <Route path="/addon/:addon" element={<AddonPage />} />
                 <Route path="/addonpack/:addon" element={<AddonPackPage />} />
                 <Route path="/about" element={<AboutPage />} />
+                
             </Routes>
         </main>
     )
