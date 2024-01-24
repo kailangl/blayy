@@ -26,8 +26,6 @@ const AddonPage: FC = () => {
                         </a>
                         <a href={addon.download} target="_blank" className="hover:bg-blueborder shadow-blueshadow shadow-xl hover:text-black transtion-colors duration-300 border-4 border-blueborder text-bluetext cursor-pointer bg-bluebg text-center p-2 px-4 font-bold flex flex-grow justify-center mt-10 w-[400px] tablet:w-[95vw]">Download Addon</a>
                     </div>
-<script async="async" data-cfasync="false" src="//woollenthawewe.com/57a06625508245eafda31519bf3468fb/invoke.js"></script>
-<div id="container-57a06625508245eafda31519bf3468fb"></div>
                 </div>
              
             </section>
