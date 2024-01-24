@@ -1,7 +1,7 @@
 import { FC } from "react";
 
 const AboutPage: FC = () => {
-   return(
+   return (
          <main className="w-[100vw] bg-bluebg bg-fixed overflow-x-hidden text-white flex justify-center">
               <div className="flex flex-col max-w-[1500px] w-[100vw] h-[100%] justify-center gap-5">
             <section className="w-[100vw] max-w-[1500vw] flex items-center justify-center overflow-x-hidden">
