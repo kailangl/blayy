@@ -5,42 +5,6 @@ import addons from "../../addons.json";
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
-function CustomLink(props) {
-  const [link, setLink] = useState(""); // o estado do link personalizado
-
-  useEffect(() => {
-    // quando o componente é montado
-    LootLabs.createLink({
-      // cria um link personalizado
-      url: props.url, // a URL original
-      theme: props.theme, // o tema do link
-      tier: props.tier, // o nível de anúncios
-      callback: function (result) {
-        // a função de callback
-        if (result.success) {
-          // se o link foi criado com sucesso
-          setLink(result.link); // atualiza o estado do link
-        } else {
-          // se houve algum erro
-          console.error("Erro: " + result.message); // imprime a mensagem de erro
-        }
-      },
-    });
-  }, [props.url, props.theme, props.tier]); // depende das props do componente
-
-  return (
-    <div>
-      {link ? ( // se o link existe
-        <Link to={link}>{props.children}</Link> // retorna um componente Link com o link personalizado
-      ) : (
-        // se o link não existe
-        <p>Carregando...</p> // retorna um texto de carregamento
-      )}
-    </div>
-  );
-}
-
-export default CustomLink;
 
 const AddonPage: FC = () => {
     const params = useParams<Params>();
