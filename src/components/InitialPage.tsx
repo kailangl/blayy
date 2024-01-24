@@ -20,8 +20,7 @@ const InitialPage: FC = (): React.ReactNode => {
                         <div className="flex gap-3 text-bluetext tablet:w-[95vw] w-[600px]">
                             <button onClick={() => setSelected(2)} className={`${selected === 2 ? "bg-blueborder text-black" : ""} hover:bg-blueborder shadow-blueshadow shadow-xl hover:text-black transtion-colors duration-300 border-4 border-blueborder bg-bluebg text-center p-2 px-4 font-bold flex flex-grow justify-center items-center`}>MODPACKS</button>
                             <button onClick={() => setSelected(1)} className={`${selected === 1 ? "bg-blueborder text-black" : ""} hover:bg-blueborder shadow-blueshadow shadow-xl hover:text-black transtion-colors duration-300 border-4 border-blueborder bg-bluebg text-center p-2 px-4 font-bold flex flex-grow justify-center items-center`}>ADDONS</button>
-                             <button onClick={() => setSelected(3)} className={`${selected === 3 ? "bg-blueborder text-black" : ""} hover:bg-blueborder shadow-blueshadow shadow-xl hover:text-black transtion-colors duration-300 border-4 border-blueborder bg-bluebg text-center p-2 px-4 font-bold flex flex-grow justify-center items-center`}>ABOUT</button>
-                        </div>
+                           
                     </div>
                 </header>
                 <div className="flex w-full items-center justify-center">
