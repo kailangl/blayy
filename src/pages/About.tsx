@@ -7,8 +7,7 @@ const AboutPage: FC = () => {
             <section className="w-[100vw] max-w-[1500vw] flex items-center justify-center overflow-x-hidden">
                 <div className="flex flex-col items-center justify-center text-center p-3">
                     <div className="flex justify-center items-center flex-col w-full">
-                        <h1 className="text-white tablet:text-[10vw] text-[100px] font-bold">About US</h1>
-                        <div id="container-57a06625508245eafda31519bf3468fb"></div>
+                        <h1 className="text-white tablet:text-[10vw] text-[100px] font-bold">About</h1>
                     </div>
                     <div className="flex flex-col w-full items-center justify-center">
                         <h1 className="my-10 text-white font-bold tablet:text-[30px] text-[50px]">Contribuitors</h1>
