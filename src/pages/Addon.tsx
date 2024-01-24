@@ -2,9 +2,6 @@ import { FC } from "react";
 import { Params, useParams } from "react-router-dom";
 import addons from "../../addons.json";
 
-import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
-
 
 const AddonPage: FC = () => {
     const params = useParams<Params>();
