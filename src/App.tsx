@@ -10,7 +10,7 @@ function App() {
                 <Route path="/" element={<InitialPage />} />
                 <Route path="/addon/:addon" element={<AddonPage />} />
                 <Route path="/addonpack/:addon" element={<AddonPackPage />} />
-                     <Route path="/about-us" element={<AboutPage />} />
+                <Route path="/about-us" element={<AboutPage />} />
             </Routes>
         </main>
     )
