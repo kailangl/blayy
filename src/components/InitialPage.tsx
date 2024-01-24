@@ -47,10 +47,6 @@ const InitialPage: FC = (): React.ReactNode => {
                                     </div>
                                 </Link>
                             ))
-                        ) : selected === 3 ? (    
-                                 <Link to="about-us" className="w-[600px] tablet:w-[95vw] h-[300px] hover:shadow-blueshadow hover:shadow-2xl transition-all duration-300 border-4 border-blueborder flex items-center justify-center">
-                                </Link>
-    
                         ) : (
                             <div>sei lá você bugou a página seu inútil</div>
                         )}
