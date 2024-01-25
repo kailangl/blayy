@@ -1,5 +1,13 @@
 {
     "addons": [
+        {
+            "title": "Evolution Magic Weapons",
+            "description": "This add-on adds new items with amazing utilities to your game.",
+            "video": "https://youtu.be/CX0fjVQIG_4",
+            "download": "https://lootdest.com/s?nr7N",
+            "image": "https://media.discordapp.net/attachments/956680671944912976/1199946987911524422/1706158671896-01.jpg",
+            "link": "/addon/evolution-magic-weapons"
+        }, 
            {
             "title": "Fantastic Additions",
             "description": "This add-on adds new items with amazing utilities to your game.",
@@ -13,7 +21,7 @@
             "description": "Insane Buffed mobs is an addon that adds special abilities to creatures in the game. These abilities are also applied to creatures from other addons.So far we have 20 different skills and buffs ",
             "video": "https://youtu.be/BqMnRuhZrBo",
             "download": "https://direct-link.net/345156/insane-buffed-mobs",
-            "image": "https://i9.ytimg.com/vi/BqMnRuhZrBo/mqdefault.jpg?v=652e96e2&sqp=CLyGxa0G&rs=AOn4CLDNIS8iAk9WLviTOsbv48_FsgYl_w",
+            "image": "https://i9.ytimg.com/vi/BqMnRuhZrBo/mqdefault.jpg",
             "link": "/addon/insane-buffed-mobs"
         },
              {
