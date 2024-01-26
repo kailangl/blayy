@@ -2,6 +2,10 @@ import { FC } from "react";
 
 const AboutPage: FC = () => {
    return (    
+       <div className="flex items-center justify-center flex-col gap-3">
+                            <h1 className="text-[30px] font-bold">BECOME A PATRON</h1>
+                            <button onClick={() => window.location.href = "https://blayy.vercel.app"} className="shadow-blueshadow shadow-xl hover:bg-blueborder hover:text-black transtion-colors duration-300 border-4 border-blueborder bg-bluebg text-center p-2 px-4 font-bold flex flex-grow justify-center w-full text-bluetext">CLICK ME</button>
+                        </div>
               <div className="flex flex-col max-w-[1500px] w-[100vw] h-[100%] justify-center gap-5">
             <section className="w-[100vw] max-w-[1500vw] flex items-center justify-center overflow-x-hidden">
                 <div className="flex flex-col items-center justify-center text-center p-3">
