@@ -5,7 +5,8 @@
             "description": "This addon adds a lot of bags to your game",
             "download": "https://loot-link.com/s?nB1M",
             "image": "https://media.discordapp.net/attachments/956680671944912976/1200790648836608032/1706320810942-01.jpg",
-            "link": "/addon/fantastic-bags"
+            "link": "/addon/fantastic-bags",
+            "tag": "items, survival, utility"
         },
         {
             "title": "Evolution Magic Weapons",
@@ -13,7 +14,8 @@
             "video": "https://youtu.be/zj6NUYmuMNQ?si=riiIFV8Nmfqlyabp",
             "download": "https://lootdest.com/s?nr7N",
             "image": "https://media.discordapp.net/attachments/956680671944912976/1199946987911524422/1706158671896-01.jpg",
-            "link": "/addon/evolution-magic-weapons"
+            "link": "/addon/evolution-magic-weapons",
+            "tag": "items, survival, weapons, magic"
         }, 
            {
             "title": "Fantastic Additions",
@@ -21,15 +23,17 @@
             "video": "https://youtu.be/CX0fjVQIG_4",
             "download": "https://loot-link.com/s?m9lY",
             "image": "https://modbay.org/uploads/posts/2024-01/fantastic-additions-main-cover.jpg",
-            "link": "/addon/fantastic-additions"
+            "link": "/addon/fantastic-additions",
+            "tag": "items, survival, utility"
         },
              {
             "title": "Insane Buffed Mobs",
             "description": "Insane Buffed mobs is an addon that adds special abilities to creatures in the game. These abilities are also applied to creatures from other addons.So far we have 20 different skills and buffs ",
             "video": "https://youtu.be/BqMnRuhZrBo",
             "download": "https://direct-link.net/345156/insane-buffed-mobs",
-            "image": "https://i9.ytimg.com/vi/BqMnRuhZrBo/mqdefault.jpg",
-            "link": "/addon/insane-buffed-mobs"
+            "image": "https://modbay.org/uploads/posts/2023-12/insane-buffed-mobs-main-cover.png",
+            "link": "/addon/insane-buffed-mobs",
+            "tag": "mobs, survival, difficulty"
         },
              {
             "title": "Portable Furnaces",
@@ -37,7 +41,8 @@
             "video": "https://youtu.be/iRYrdUqNG2w",
             "download": "https://linkvertise.com/345156/portable-furnaces?o=sharing",
             "image": "https://api.mcpedl.com/storage/submissions/110366/100/170018330782001_1-520x245.png",
-            "link": "/addon/portable-furnaces"
+            "link": "/addon/portable-furnaces",
+            "tag": "items, survival, utility"
         },
         {
             "title": "Skilled Items",
@@ -45,7 +50,8 @@
             "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
             "download": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
             "image": "https://api.mcpedl.com/storage/submissions/73999/113/1696983358277_1-520x245.png",
-            "link": "/addon/skilled-items"
+            "link": "/addon/skilled-items",
+            "tag": "items, survival, utility, magic, tools, weapons"
         },
         {
             "title": "Prismarite Addon",
@@ -53,7 +59,8 @@
             "video": "https://youtu.be/Sms4Y6cd-UM",
             "download": "https://www.vatonage.com/post/prismarite-addon",
             "image": "https://api.mcpedl.com/storage/submissions/108643/100/pegueiojeito_1-520x245.png",
-            "link": "/addon/prismarite-addon"
+            "link": "/addon/prismarite-addon",
+            "tag": "items, survival, utility, magic, tools, weapons"
         },
           {
             "title": "Magma Expansion",
@@ -61,7 +68,8 @@
             "video": "https://youtu.be/mHXojsP_7lo",
             "download": "https://www.vatonage.com/post/magma-expansion",
             "image": "https://api.mcpedl.com/storage/submissions/108195/100/169482457605601_1-520x245.png",
-            "link": "/addon/magma-expansion"
+            "link": "/addon/magma-expansion",
+            "tag": "items, survival, utility, magic, tools, weapons"
         }
     ],
     "addonspacks": [
@@ -71,7 +79,8 @@
             "video": "https://youtu.be/Sms4Y6cd-UM",
             "download": "https://www.vatonage.com/post/prismarite-addon",
             "image": "https://api.mcpedl.com/storage/submissions/108643/100/pegueiojeito_1-520x245.png",
-            "link": "/addonpack/prismariteee"
+            "link": "/addonpack/stable-modpack",
+            "tag": "items, survival, utility, magic, tools, weapons, mobs, difficulty"
         }
     ]
 }

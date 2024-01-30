@@ -7,10 +7,11 @@ const AddonPackPage: FC = () => {
     const addonName = params.addon;
 
     const addonpack = addons.addonspacks.find(addon => addon.link.replace("/addonpack/", "") === addonName);
-
+    window.scrollTo(0, 9)
     return addonpack ? (
         <section className="w-[100vw] max-w-[1500vw] flex items-center justify-center overflow-x-hidden">
             <div className="flex flex-col items-center justify-center text-center p-3">
+            <h1 className="text-white text-[20px] w-[50%] tablet:w-[95vw]">-+ {addon.tag} +-</h1>
                 <div className="flex justify-center items-center flex-col w-full">
                     <h1 className="text-white tablet:text-[10vw] text-[100px] font-bold">{addonpack.title.toUpperCase()}</h1>
                     <div className="text-white text-[20px] w-[50%] tablet:w-[95vw]">{addonpack.description}</div>
