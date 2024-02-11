@@ -6,14 +6,6 @@ import addons from "../../addons.json";
 const AddonPage: FC = () => {
     const params = useParams<Params>();
     const addonName = params.addon;
-    function Appp() {
-    return (
-    <div className="Appp">
-      <h3>Iframes com React</h3>
-      <iframe src="https://www.youtube.com/embed/94yuIVdoevc"></iframe>
-    </div>
-    );
-    }
 
     const addon = addons.addons.find(addon => addon.link.replace("/addon/", "") === addonName);
     window.scrollTo(0, 9)
@@ -30,7 +22,7 @@ const AddonPage: FC = () => {
                     </div>
                     <div className="flex flex-col w-full items-center justify-center">
                         <h1 className="my-10 text-white font-bold tablet:text-[30px] text-[50px]">Showcase video</h1>
-                        Appp()
+                        
                         <a href={addon.download} target="_blank" className="hover:bg-blueborder shadow-blueshadow shadow-xl hover:text-black transtion-colors duration-300 border-4 border-blueborder text-bluetext cursor-pointer bg-bluebg text-center p-2 px-4 font-bold flex flex-grow justify-center mt-10 w-[400px] tablet:w-[95vw]">Download Addon</a>
                         <h1 className="text-white text-[20px] w-[50%] tablet:w-[95vw]">-+ BlayyDeveloper +-</h1>
                     </div>
