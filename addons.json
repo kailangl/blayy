@@ -1,15 +1,6 @@
 {
     "addons": [
         {
-            "title": "Skilled Items",
-            "description": "This addon adds items with special abilities, all items have an interesting mechanic that will contribute to your survival. All tools are enchanting and repairable, and each one has its advantages.",
-            "video": "https://youtube.com/embed/PVr8XCRiF1M?si=cKU9Y9ILOTJRBPz-",
-            "download": "https://lootdest.com/s?ok9K",
-            "image": "https://api.mcpedl.com/storage/submissions/73999/113/1696983358277_1-520x245.png",
-            "link": "/addon/skilled-items",
-            "tag": "items, survival, utility, magic, tools, weapons"
-        },
-        {
             "title": "Fantastic Bags", 
             "description": "This addon adds a lot of bags to your game",
             "download": "https://loot-link.com/s?nB1M",
@@ -20,7 +11,7 @@
         {
             "title": "Evolution Magic Weapons",
             "description": "This addon adds weapons that can be evolved as the player attacks creatures.These weapons have 4 different abilities each, each level the weapon increases, unlocks a skill, changes texture, and increases damage.",
-            "video": "https://youtube.com/embed/zj6NUYmuMNQ?si=riiIFV8Nmfqlyabp",
+            "video": "https://youtu.be/zj6NUYmuMNQ?si=riiIFV8Nmfqlyabp",
             "download": "https://lootdest.com/s?nr7N",
             "image": "https://media.discordapp.net/attachments/956680671944912976/1199946987911524422/1706158671896-01.jpg",
             "link": "/addon/evolution-magic-weapons",
@@ -29,7 +20,7 @@
            {
             "title": "Fantastic Additions",
             "description": "This add-on adds new items with amazing utilities to your game.",
-            "video": "https://youtube.com/embed/CX0fjVQIG_4",
+            "video": "https://youtu.be/CX0fjVQIG_4",
             "download": "https://loot-link.com/s?m9lY",
             "image": "https://modbay.org/uploads/posts/2024-01/fantastic-additions-main-cover.jpg",
             "link": "/addon/fantastic-additions",
@@ -38,7 +29,7 @@
              {
             "title": "Insane Buffed Mobs",
             "description": "Insane Buffed mobs is an addon that adds special abilities to creatures in the game. These abilities are also applied to creatures from other addons.So far we have 20 different skills and buffs ",
-            "video": "https://youtube.com/embed/BqMnRuhZrBo",
+            "video": "https://youtu.be/BqMnRuhZrBo",
             "download": "https://direct-link.net/345156/insane-buffed-mobs",
             "image": "https://modbay.org/uploads/posts/2023-12/insane-buffed-mobs-main-cover.png",
             "link": "/addon/insane-buffed-mobs",
@@ -47,16 +38,25 @@
              {
             "title": "Portable Furnaces",
             "description": "This  Addon adds new furnaces to your game that work in a very different way. main fuel used in the furnaces is Redstone, it can give enough fuel to heat up 5 items. The redstone block can provide fuel to heat up 45 items",
-            "video": "https://youtube.com/embed/iRYrdUqNG2w",
+            "video": "https://youtu.be/iRYrdUqNG2w",
             "download": "https://linkvertise.com/345156/portable-furnaces?o=sharing",
             "image": "https://api.mcpedl.com/storage/submissions/110366/100/170018330782001_1-520x245.png",
             "link": "/addon/portable-furnaces",
             "tag": "items, survival, utility"
-        },        
+        },
+        {
+            "title": "Skilled Items",
+            "description": "This addon adds items with special abilities, all items have an interesting mechanic that will contribute to your survival. All tools are enchanting and repairable, and each one has its advantages.",
+            "video": "https://youtu.be/PVr8XCRiF1M?si=cKU9Y9ILOTJRBPz-",
+            "download": "https://lootdest.com/s?ok9K",
+            "image": "https://api.mcpedl.com/storage/submissions/73999/113/1696983358277_1-520x245.png",
+            "link": "/addon/skilled-items",
+            "tag": "items, survival, utility, magic, tools, weapons"
+        },
         {
             "title": "Prismarite Addon",
             "description": "This addon expands the usefulness of netherite by creating a new template. With it, you can create armor and prismarite tools to help with your aquatic experience. With this addon you can explore several oceans and even mine underwater without any worry.",
-            "video": "https://youtube.com/embed/Sms4Y6cd-UM",
+            "video": "https://youtu.be/Sms4Y6cd-UM",
             "download": "https://www.vatonage.com/post/prismarite-addon",
             "image": "https://api.mcpedl.com/storage/submissions/108643/100/pegueiojeito_1-520x245.png",
             "link": "/addon/prismarite-addon",
@@ -65,7 +65,7 @@
           {
             "title": "Magma Expansion",
             "description": "This addon adds new items to improve your experience in nether, and gives more utility to magma cream and netherite ingot.All the items of this addon have some special utility, this makes the player have a fun experience even though the addon is simple.",
-            "video": "https://youtube.com/embed/mHXojsP_7lo",
+            "video": "https://youtu.be/mHXojsP_7lo",
             "download": "https://www.vatonage.com/post/magma-expansion",
             "image": "https://api.mcpedl.com/storage/submissions/108195/100/169482457605601_1-520x245.png",
             "link": "/addon/magma-expansion",
@@ -75,8 +75,9 @@
     "addonspacks": [
         {
             "title": "Stable Modpack",
-            "description": "Coming Soon...",            
-            "download": "/coming-soon",
+            "description": "This addon expands the usefulness of netherite by creating a new template. With it, you can create armor and prismarite tools to help with your aquatic experience. With this addon you can explore several oceans and even mine underwater without any worry.",
+            "video": "https://youtu.be/Sms4Y6cd-UM",
+            "download": "https://www.vatonage.com/post/prismarite-addon",
             "image": "https://api.mcpedl.com/storage/submissions/108643/100/pegueiojeito_1-520x245.png",
             "link": "/addonpack/stable-modpack",
             "tag": "items, survival, utility, magic, tools, weapons, mobs, difficulty"
