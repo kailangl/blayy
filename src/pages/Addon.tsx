@@ -21,8 +21,7 @@ const AddonPage: FC = () => {
                         <div className="text-white text-[20px] w-[50%] tablet:w-[95vw]">{addon.description}</div>
                     </div>
                     <div className="flex flex-col w-full items-center justify-center">
-                        <h1 className="my-10 text-white font-bold tablet:text-[30px] text-[50px]">Showcase video</h1>
-                        
+                        <h1 className="my-10 text-white font-bold tablet:text-[30px] text-[50px]">Showcase video</h1>                        
                         <a href={addon.download} target="_blank" className="hover:bg-blueborder shadow-blueshadow shadow-xl hover:text-black transtion-colors duration-300 border-4 border-blueborder text-bluetext cursor-pointer bg-bluebg text-center p-2 px-4 font-bold flex flex-grow justify-center mt-10 w-[400px] tablet:w-[95vw]">Download Addon</a>
                         <h1 className="text-white text-[20px] w-[50%] tablet:w-[95vw]">-+ BlayyDeveloper +-</h1>
                     </div>
