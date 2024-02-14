@@ -3,10 +3,10 @@ import { FC } from "react";
 const AboutPage: FC = () => {
   window.scrollTo(0, 9)
   return (
-    <div className="flex flex-col max-w-[1500px] w-[100vw] h-[100%] justify-center gap-5">
-      <section className="w-[100vw] max-w-[1500vw] flex items-center justify-center overflow-x-hidden">
-        <div className="flex flex-col items-center justify-center text-center p-3">
-          <div className="flex justify-center items-center flex-col w-full">
+    <div className="flex flex-col max-w-[1500px] w-full items-center justify-center gap-5">
+      <section className="w-full max-w-[1500vw] items-center justify-center flex overflow-x-hidden">
+        <div className="flex flex-col text-center items-center p-3">
+          <div className="flex flex-col w-full">
             <h1 className="text-white tablet:text-[10vw] text-[100px] font-bold">About-US</h1>
           </div>
           <div className="flex flex-col w-full items-center justify-center">
@@ -20,9 +20,7 @@ const AboutPage: FC = () => {
             <div className="text-white text-[10px] w-[25%] tablet:w-[47vw]">DISCORD: @spyei EMAIL: kevincaionovo@gmail.com</div>
             <a href="https://spyei.online/" target="_blank" className="hover:bg-blueborder shadow-blueshadow shadow-xl hover:text-black transtion-colors duration-300 border-4 border-blueborder text-bluetext cursor-pointer bg-bluebg text-center p-2 px-4 font-bold flex flex-grow justify-center mt-10 w-[400px] tablet:w-[95vw]">Portifolio</a>
           </div>
-
         </div>
-
       </section>
     </div>
   )
