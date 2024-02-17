@@ -8,11 +8,11 @@ const InitialPage: FC = (): React.ReactNode => {
     const [page, setPage] = useState(-1);
     const [pages, setPages] = useState(1);
     function pular() {
-        setPage(page + 5);
+        setPage(page + 4);
         setPages(pages +1)
       }
       function voltar() {
-        setPage(page - 5);
+        setPage(page - 4);
         setPages(pages -1)
       }
     return (
@@ -42,7 +42,7 @@ const InitialPage: FC = (): React.ReactNode => {
                         {selected === 1 ? (
                          
                             addons.addons.map((addon, index) => (
-                                index < page+5 && index >= page && (
+                                index < page+4 && index >= page && (
                                     <Link key={index} to={addon.link} className="w-[600px] tablet:w-[95vw] h-[300px] hover:shadow-blueshadow hover:shadow-2xl transition-all duration-300 border-4 border-blueborder flex items-center justify-center">
                                     <div className="m-3 h-full w-full flex border-4 border-t-0 border-b-0 border-blueborder">
                                         <div className="bg-bluebg border-b-0 border-l-0 border-blueborder text-bluetext border-4 h-[30px] absolute mt-[263px] text-center font-bold px-2">{addon.title}</div>
