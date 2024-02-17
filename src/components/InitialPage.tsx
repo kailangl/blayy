@@ -5,7 +5,7 @@ import AboutPage from "../pages/About";
 
 const InitialPage: FC = (): React.ReactNode => {
     const [selected, setSelected] = useState<1 | 2 | 3>(1);
-    const [page, setPage] = useState(-1);
+    const [page, setPage] = useState(0);
     const [pages, setPages] = useState(1);
     function pular() {
         setPage(page + 4);
@@ -28,9 +28,9 @@ const InitialPage: FC = (): React.ReactNode => {
                     <div className="flex flex-col items-center justify-center">
                         <h1 className="font-bold tablet:text-[30px] text-[100px] drop-shadow-xl shadow-bluetext">ADDON LIST</h1>
                         <div className="flex gap-3 text-bluetext tablet:w-[95vw] w-[600px]">
-                            <button onClick={() => {setSelected(2); setPage(-1); setPages(1) }} className={`${selected === 2 ? "bg-blueborder text-black" : ""} hover:bg-blueborder shadow-blueshadow shadow-xl hover:text-black transtion-colors duration-300 border-4 border-blueborder bg-bluebg text-center p-2 px-4 font-bold flex flex-grow justify-center items-center`}>MODPACKS</button>
-                            <button onClick={() => {setSelected(1); setPage(-1); setPages(1) }}  className={`${selected === 1 ? "bg-blueborder text-black" : ""} hover:bg-blueborder shadow-blueshadow shadow-xl hover:text-black transtion-colors duration-300 border-4 border-blueborder bg-bluebg text-center p-2 px-4 font-bold flex flex-grow justify-center items-center`}>ADDONS</button>
-                            <button onClick={() => {setSelected(3); setPage(-1); setPages(1) }} className={`${selected === 3 ? "bg-blueborder text-black" : ""} hover:bg-blueborder shadow-blueshadow shadow-xl hover:text-black transtion-colors duration-300 border-4 border-blueborder bg-bluebg text-center p-2 px-4 font-bold flex flex-grow justify-center items-center`}>ABOUT-US</button>
+                            <button onClick={() => {setSelected(2); setPage(0); setPages(1) }} className={`${selected === 2 ? "bg-blueborder text-black" : ""} hover:bg-blueborder shadow-blueshadow shadow-xl hover:text-black transtion-colors duration-300 border-4 border-blueborder bg-bluebg text-center p-2 px-4 font-bold flex flex-grow justify-center items-center`}>MODPACKS</button>
+                            <button onClick={() => {setSelected(1); setPage(0); setPages(1) }}  className={`${selected === 1 ? "bg-blueborder text-black" : ""} hover:bg-blueborder shadow-blueshadow shadow-xl hover:text-black transtion-colors duration-300 border-4 border-blueborder bg-bluebg text-center p-2 px-4 font-bold flex flex-grow justify-center items-center`}>ADDONS</button>
+                            <button onClick={() => {setSelected(3); setPage(0); setPages(1) }} className={`${selected === 3 ? "bg-blueborder text-black" : ""} hover:bg-blueborder shadow-blueshadow shadow-xl hover:text-black transtion-colors duration-300 border-4 border-blueborder bg-bluebg text-center p-2 px-4 font-bold flex flex-grow justify-center items-center`}>ABOUT-US</button>
                         </div>
                     </div>
                 </header>
