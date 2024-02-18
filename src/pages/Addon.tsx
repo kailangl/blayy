@@ -1,13 +1,39 @@
-import { FC } from "react";
+import { FC, useEffect } from "react";
 import { Params, useParams } from "react-router-dom";
 import addons from "../../addons.json";
-
 
 const AddonPage: FC = () => {
     const params = useParams<Params>();
     const addonName = params.addon;
-
     const addon = addons.addons.find(addon => addon.link.replace("/addon/", "") === addonName);
+    useEffect(() => {
+        if (addon) {
+        
+          const redirectUrl = `${addon.url}`;
+    
+          // Abre o redirecionamento em uma nova aba
+          const openInNewTab = () => {
+            const newTab = window.open(redirectUrl, '_blank');
+            if (newTab) {
+              
+                    newTab.focus();
+                  
+            } else {
+              console.error("Falha ao abrir nova aba.");
+            }
+          };
+    
+          // Redireciona após 5 segundos
+          const redirectTimeout = setTimeout(() => {
+            if (addon.url) {
+            openInNewTab();
+            }
+          }, 1);
+    
+          return () => clearTimeout(redirectTimeout);
+        }
+      }, [addon]);
+    
     window.scrollTo(0, 9)
     return addon ? (
         <>   
