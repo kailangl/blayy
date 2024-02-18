@@ -69,7 +69,7 @@ const InitialPage: FC = (): React.ReactNode => {
                         )}
                     </div>
                 </section>
-                <div className="flex items-center w-full justify-center">
+                <div className="flex w-full items-center justify-center">
                     
                     {selected === 1 && addons.addons[page+4] != undefined ? (
                         <button onClick={() => pular()} className="hover:bg-blueborder shadow-blueshadow shadow-xl hover:text-black transtion-colors duration-300 border-4 border-blueborder text-bluetext cursor-pointer bg-bluebg text-center p-2 px-4 font-bold flex flex-grow justify-center mt-10 w-[400px] tablet:w-[95vw]">Next Page</button>
