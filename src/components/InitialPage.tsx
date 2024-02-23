@@ -2,11 +2,14 @@ import { FC, useState } from "react";
 import addons from "../../addons.json";
 import { Link } from "react-router-dom";
 import AboutPage from "../pages/About";
+import SearchBar from  "./SearchBar";
 
 const InitialPage: FC = (): React.ReactNode => {
     const [selected, setSelected] = useState<1 | 2 | 3>(1);
     const [page, setPage] = useState(0);
     const [pages, setPages] = useState(1);
+    const [query, setQuery] = useState<string>("");
+    
     function pular() {
         setPage(page + 4);
         setPages(pages +1)
@@ -37,11 +40,11 @@ const InitialPage: FC = (): React.ReactNode => {
                 <div className="flex w-full items-center justify-center">
                     {selected === 1 ? <h1 className="font-bold tablet:text-[30px] text-[80px] drop-shadow-xl shadow-bluetext">ADDONS</h1> : selected === 3 ? <></> : <div className="font-bold tablet:text-[30px] text-[80px] drop-shadow-xl shadow-bluetext">MODPACKS</div>}
                 </div>
+                <SearchBar query={query} setQuery={setQuery} />
                 <section className="w-[100vw] flex justify-center items-center max-w-[1500px]">
                     <div className={selected === 3 ? "flex items-center w-full justify-center" : "grid grid-cols-2 tablet:grid-cols-1 place-items-center gap-4 mb-4"}>
                         {selected === 1 ? (
-                         
-                            addons.addons.map((addon, index) => (
+                            addons.addons.filter((addon) => addon.title.toLowerCase().includes(query.toLowerCase())).map((addon, index) => (
                                 index < page+4 && index >= page && (
                                     <Link key={index} to={addon.link} className="w-[600px] tablet:w-[95vw] h-[300px] hover:shadow-blueshadow hover:shadow-2xl transition-all duration-300 border-4 border-blueborder flex items-center justify-center">
                                     <div className="m-3 h-full w-full flex border-4 border-t-0 border-b-0 border-blueborder">
@@ -52,7 +55,7 @@ const InitialPage: FC = (): React.ReactNode => {
                                 )
                             ))
                         ) : selected === 2 ? (            
-                            addons.addonspacks.map((addon, index) => (
+                            addons.addonspacks.filter((addon) => addon.title.toLowerCase().includes(query.toLowerCase())).map((addon, index) => (
                                 index < page+4 && index >= page && (
                                 <Link key={index} to={addon.link} className="w-[600px] tablet:w-[95vw] h-[300px] hover:shadow-blueshadow hover:shadow-2xl transition-all duration-300 border-4 border-blueborder flex items-center justify-center">
                                     <div className="m-3 h-full w-full flex border-4 border-t-0 border-b-0 border-blueborder">
