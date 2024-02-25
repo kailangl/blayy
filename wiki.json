@@ -1,0 +1,51 @@
+{
+    "wiki": [
+        {
+            "name": "Iron Plate",
+            "description": "use to make recipes",
+            "recipe": "Click in an iron block using any of the hammers",
+            "image": "https://cdn.discordapp.com/attachments/956680671944912976/1211413466997456916/iron_plate.png?ex=65ee1bb5&is=65dba6b5&hm=029e4cc58c89853237a056924b82cd23b0b528ff22b2903b5143ef7690116406&on_plate",
+            "addon": "Skilled Items",
+            "addonlink": "/addon/skilled-items",
+            "link": "/wiki/iron-plate"
+        },
+        {
+            "name": "Gold Plate",
+            "description": "use to make recipes",
+            "recipe": "Click in an gold block using any of the hammers",
+            "image": "https://cdn.discordapp.com/attachments/956680671944912976/1211413466095550494/gold_plate.png?ex=65ee1bb5&is=65dba6b5&hm=29703edcd709d2cbd1fb96ac4604d4435c15a1403b7645d3e8b64e9b94accd39&",
+            "addon": "Skilled Items",
+            "addonlink": "/addon/skilled-items",
+            "link": "/wiki/gold-plate"
+        },
+        {
+        "name": "Diamond Plate",
+        "description": "use to make recipes",
+        "recipe": "Click in an diamond block using any of the hammers",
+        "image": "https://cdn.discordapp.com/attachments/956680671944912976/1211413465277796482/diamond_plate.png?ex=65ee1bb5&is=65dba6b5&hm=7b6a9f80bc0af7e9d1e81ba62967dd173791ad52f95ef4ed5b05d7b94b5f7e07&",
+        "addon": "Skilled Items",
+        "addonlink": "/addon/skilled-items",
+        "link": "/wiki/diamond-plate"
+       },
+       {
+        "name": "Iron Hammer",
+        "description": "use to make recipes",
+        "recipe": "Click in an iron block using any of the hammers",
+        "image": "https://cdn.discordapp.com/attachments/956680671944912976/1211413466552995860/iron_hammer.png?ex=65ee1bb5&is=65dba6b5&hm=15a12e9c29d85e2f6908f2bb701adf086bc4d37525af8f9c25bdbc444f9afdf1&",
+        "image2": "assets/iron_plate",
+        "addon": "Skilled Items",
+        "addonlink": "/addon/skilled-items",
+        "link": "/wiki/iron-hammer"
+        },
+        {
+            "name": "Gold Hammer",
+            "description": "use to make recipes",
+            "recipe": "Click in an iron block using any of the hammers",
+            "image": "https://cdn.discordapp.com/attachments/956680671944912976/1211413466552995860/iron_hammer.png?ex=65ee1bb5&is=65dba6b5&hm=15a12e9c29d85e2f6908f2bb701adf086bc4d37525af8f9c25bdbc444f9afdf1&",
+            "image2": "assets/iron_plate",
+            "addon": "Skilled Items",
+            "addonlink": "/addon/skilled-items",
+            "link": "/wiki/gold-hammer"
+        }
+    ]
+}
