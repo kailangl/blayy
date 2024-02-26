@@ -74,7 +74,7 @@ const InitialPage: FC = (): React.ReactNode => {
                                 index < page+8 && index >= page && (
                                 <Link key={index} to={wiki1.link} className="w-[300px] tablet:w-[47vw] h-[150px] hover:shadow-blueshadow hover:shadow-2xl transition-all duration-150 border-2 border-blueborder flex items-center justify-center">
                                     <div className="m-1 h-full w-full flex border-2 border-t-0 border-b-0 border-blueborder">
-                                        <div className="bg-bluebg border-b-0 border-l-0 border-blueborder text-bluetext border-2 h-[22px] absolute mt-[124px] text-center font-bold px-1"><h1 className="text-[14px]">{wiki1.name} - {wiki1.addon}</h1></div>
+                                        <div className="bg-bluebg border-b-0 border-l-0 border-blueborder text-bluetext border-2 h-[22px] absolute mt-[124px] text-center font-bold px-1"><h1 className="text-[10px]">{wiki1.name} - {wiki1.addon}</h1></div>
                                         <img className="w-full h-full object-cover" src={wiki1.image} />
                                     </div>
                                 </Link>
