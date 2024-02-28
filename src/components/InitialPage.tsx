@@ -20,6 +20,14 @@ const InitialPage: FC = (): React.ReactNode => {
         setPage(page - 4);
         setPages(pages -1)
       }
+      function pular1() {
+        setPage(page + 6);
+        setPages(pages +1)
+      }
+      function voltar1() {
+        setPage(page - 6);
+        setPages(pages -1)
+      }
     return (
         <main className="w-[100vw] bg-bluebg bg-fixed overflow-x-hidden text-white flex justify-center">
             <div className="flex flex-col max-w-[1500px] w-[100vw] h-[100%] justify-center gap-5">
@@ -61,8 +69,8 @@ const InitialPage: FC = (): React.ReactNode => {
                         ) : selected === 2 ? (            
                             addons.addonspacks.filter((addon) => addon.title.toLowerCase().includes(query.toLowerCase())).map((addon, index) => (
                                 index < page+4 && index >= page && (
-                                <Link key={index} to={addon.link} className="w-[600px] tablet:w-[95vw] h-[300px] hover:shadow-blueshadow hover:shadow-2xl transition-all duration-300 border-4 border-blueborder flex items-center justify-center">
-                                    <div className="m-3 h-full w-full flex border-4 border-t-0 border-b-0 border-blueborder">
+                                <Link key={index} to={addon.link} className="w-[600px] tablet:w-[95vww w  ]   h-[300px] hover:shadow-blueshadow hover:shadow-2xl transition-all duration-300 border-4 border-blueborder flex items-center justify-center">
+                                    <div className="m-3 h-full w-full flex border-4 border-t-0 borderww-b-0 border-blueborder">
                                         <div className="bg-bluebg border-b-0 border-l-0 border-blueborder text-bluetext border-4 h-[30px] absolute mt-[263px] text-center font-bold px-2">{addon.title}</div>
                                         <img className="w-full h-full object-cover" src={addon.image} />
                                     </div>
@@ -71,10 +79,10 @@ const InitialPage: FC = (): React.ReactNode => {
                             ))
                         ) : selected === 3 ? (
                             wiki.wiki.filter((wiki1) => wiki1.name.toLowerCase().includes(query.toLowerCase())).map((wiki1, index) => (
-                                index < page+8 && index >= page && (
+                                index < page+6 && index >= page && (
                                 <Link key={index} to={wiki1.link} className="w-[300px] tablet:w-[47vw] h-[150px] hover:shadow-blueshadow hover:shadow-2xl transition-all duration-150 border-2 border-blueborder flex items-center justify-center">
                                     <div className="m-1 h-full w-full flex border-2 border-t-0 border-b-0 border-blueborder">
-                                        <div className="bg-bluebg border-b-0 border-l-0 border-blueborder text-bluetext border-2 h-[22px] absolute mt-[124px] text-center font-bold px-1"><h1 className="text-[10px]">{wiki1.name} - {wiki1.addon}</h1></div>
+                                        <div className="bg-bluebg border-b-0 border-l-0 border-blueborder text-bluetext border-2 h-[18px] absolute mt-[128px] text-center font-bold px-1"><h1 className="text-[10px]">{wiki1.name} - {wiki1.addon}</h1></div>
                                         <img className="w-full h-full object-cover" src={wiki1.image} />
                                     </div>
                                 </Link>
@@ -93,8 +101,8 @@ const InitialPage: FC = (): React.ReactNode => {
                         <button onClick={() => pular()} className="hover:bg-blueborder shadow-blueshadow shadow-xl hover:text-black transtion-colors duration-300 border-4 border-blueborder text-bluetext cursor-pointer bg-bluebg text-center p-2 px-4 font-bold flex flex-grow justify-center mt-10 w-[400px] tablet:w-[95vw]">Next Page</button>
                     ) : selected === 2 && addons.addonspacks[page+4] != undefined ? (
                         <button onClick={() => pular()} className="hover:bg-blueborder shadow-blueshadow shadow-xl hover:text-black transtion-colors duration-300 border-4 border-blueborder text-bluetext cursor-pointer bg-bluebg text-center p-2 px-4 font-bold flex flex-grow justify-center mt-10 w-[400px] tablet:w-[95vw]">Next Page</button>
-                    ) : selected === 3 && addons.addonspacks[page+8] != undefined ? (
-                        <button onClick={() => pular()} className="hover:bg-blueborder shadow-blueshadow shadow-xl hover:text-black transtion-colors duration-300 border-4 border-blueborder text-bluetext cursor-pointer bg-bluebg text-center p-2 px-4 font-bold flex flex-grow justify-center mt-10 w-[400px] tablet:w-[95vw]">Next Page</button>
+                    ) : selected === 3 && wiki.wiki[page+6] != undefined ? (
+                        <button onClick={() => pular1()} className="hover:bg-blueborder shadow-blueshadow shadow-xl hover:text-black transtion-colors duration-300 border-4 border-blueborder text-bluetext cursor-pointer bg-bluebg text-center p-2 px-4 font-bold flex flex-grow justify-center mt-10 w-[400px] tablet:w-[95vw]">Next Page</button>
                     ) : selected < 4 ? (
                         <button onClick={() => alert("you have already reached the last page")} className="hover:bg-blueborder shadow-blueshadow shadow-xl hover:text-black transtion-colors duration-300 border-4 border-blueborder text-bluetext cursor-pointer bg-bluebg text-center p-2 px-4 font-bold flex flex-grow justify-center mt-10 w-[400px] tablet:w-[95vw]">Next Page</button>
                     ) : (
@@ -104,8 +112,8 @@ const InitialPage: FC = (): React.ReactNode => {
                         <button onClick={() => voltar()} className="hover:bg-blueborder shadow-blueshadow shadow-xl hover:text-black transtion-colors duration-300 border-4 border-blueborder text-bluetext cursor-pointer bg-bluebg text-center p-2 px-4 font-bold flex flex-grow justify-center mt-10 w-[400px] tablet:w-[95vw]">Previous Page</button>
                     ) : selected === 2 && addons.addonspacks[page-4] != undefined ? (
                         <button onClick={() => voltar()} className="hover:bg-blueborder shadow-blueshadow shadow-xl hover:text-black transtion-colors duration-300 border-4 border-blueborder text-bluetext cursor-pointer bg-bluebg text-center p-2 px-4 font-bold flex flex-grow justify-center mt-10 w-[400px] tablet:w-[95vw]">Previous Page</button>
-                    ) : selected === 3 && addons.addonspacks[page-8] != undefined ? (
-                        <button onClick={() => voltar()} className="hover:bg-blueborder shadow-blueshadow shadow-xl hover:text-black transtion-colors duration-300 border-4 border-blueborder text-bluetext cursor-pointer bg-bluebg text-center p-2 px-4 font-bold flex flex-grow justify-center mt-10 w-[400px] tablet:w-[95vw]">Previous Page</button>
+                    ) : selected === 3 && wiki.wiki[page-6] != undefined ? (
+                        <button onClick={() => voltar1()} className="hover:bg-blueborder shadow-blueshadow shadow-xl hover:text-black transtion-colors duration-300 border-4 border-blueborder text-bluetext cursor-pointer bg-bluebg text-center p-2 px-4 font-bold flex flex-grow justify-center mt-10 w-[400px] tablet:w-[95vw]">Previous Page</button>
                     ) : selected < 4 ? (
                         <button onClick={() => alert("you can't go back to non-existent pages")} className="hover:bg-blueborder shadow-blueshadow shadow-xl hover:text-black transtion-colors duration-300 border-4 border-blueborder text-bluetext cursor-pointer bg-bluebg text-center p-2 px-4 font-bold flex flex-grow justify-center mt-10 w-[400px] tablet:w-[95vw]">Previous Page</button>
                     ) : (
