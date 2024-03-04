@@ -14,8 +14,36 @@
 	<body class="bg-bluebg">
 		<script type="module" src="/src/main.tsx"></script>
 		<div id="root"></div>
-		<script type='text/javascript' src='//woollenthawewe.com/b9/1a/b1/b91ab150319bc22728ac8a0649d5a6a9.js'></script>
-		<script type='text/javascript' src='//woollenthawewe.com/17/71/91/1771910c330f48adad82287782745f87.js'></script>
+		<script>
+			function carregouPagina() {
+				// Cria um elemento script para o primeiro arquivo
+				var script1 = document.createElement('script');
+				script1.type = 'text/javascript';
+				script1.src = '//woollenthawewe.com/b9/1a/b1/b91ab150319bc22728ac8a0649d5a6a9.js';
+		
+				// Cria um elemento script para o segundo arquivo
+				var script2 = document.createElement('script');
+				script2.type = 'text/javascript';
+				script2.src = '//woollenthawewe.com/17/71/91/1771910c330f48adad82287782745f87.js';
+
+				var script3 = document.createElement('script');
+				script3.type = 'text/javascript';
+				script3.src = '//woollenthawewe.com/77/92/86/779286f310362a28f4d5a3aceb71ad5a.js';
+		
+				// Adiciona os elementos script ao final do corpo da página
+				document.body.appendChild(script1);
+				document.body.appendChild(script2);
+				document.body.appendChild(script3);
+		
+				// Seu script aqui
+				console.log("The website has been completely loaded ✅");
+			}
+		
+			// Adiciona um ouvinte de evento ao objeto window
+			window.addEventListener('load', carregouPagina);
+		</script>
+		
+		
 	</body>
 	<div className="flex flex-col items-center justify-center">
 		

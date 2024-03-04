@@ -26,7 +26,7 @@ const AddonPage: FC = () => {
                           
                        
                         <a href={addon.download} target="_blank" className="hover:bg-blueborder shadow-blueshadow shadow-xl hover:text-black transtion-colors duration-300 border-4 border-blueborder text-bluetext cursor-pointer bg-bluebg text-center p-2 px-4 font-bold flex flex-grow justify-center mt-10 w-[400px] tablet:w-[95vw]">Download Addon</a>
-                        <h1 className="text-white text-[20px] w-[50%] tablet:w-[95vw]">-+ BlayyDeveloper +-</h1>
+                        <h1 className="text-white text-[20px] w-[50%] tablet:w-[95vw]">-+ {addon.creator} +-</h1>
                     </div>
                 </div>
              

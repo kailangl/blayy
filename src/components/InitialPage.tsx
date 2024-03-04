@@ -70,7 +70,7 @@ const InitialPage: FC = (): React.ReactNode => {
                         ) : selected === 2 ? (            
                             addons.addonspacks.filter((addon) => addon.title.toLowerCase().includes(query.toLowerCase())).map((addon, index) => (
                                 index < page+4 && index >= page && (
-                                <Link key={index} to={addon.link} className="w-[600px] tablet:w-[95vww w  ]   h-[300px] hover:shadow-blueshadow hover:shadow-2xl transition-all duration-300 border-4 border-blueborder flex items-center justify-center">
+                                <Link key={index} to={addon.link} className="w-[600px] tablet:w-[95vw]   h-[300px] hover:shadow-blueshadow hover:shadow-2xl transition-all duration-300 border-4 border-blueborder flex items-center justify-center">
                                     <div className="m-3 h-full w-full flex border-4 border-t-0 borderww-b-0 border-blueborder">
                                         <div className="bg-bluebg border-b-0 border-l-0 border-blueborder text-bluetext border-4 h-[30px] absolute mt-[263px] text-center font-bold px-2">{addon.title}</div>
                                         <img className="w-full h-full object-cover" src={addon.image} />

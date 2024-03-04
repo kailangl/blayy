@@ -1,13 +1,24 @@
 {
     "addons": [
         {
+            "title": "Smartphone Addon",
+            "description": "this addon adds a cell phone.",
+            "video": "https://www.youtube.com/embed/t08vUMkwL_Y?si=WVAui-48tmGGu0vz",
+            "download": "https://loot-link.com/s?qlZb",
+            "image": "https://i.ytimg.com/an_webp/t08vUMkwL_Y/mqdefault_6s.webp?du=3000&sqp=CP6xl68G&rs=AOn4CLBYznmLBMcfddXnSu8oxd_nbxYucw",
+            "link": "/addon/esmarthe-fhone",
+            "tag": "items, utility",
+            "creator": "Spyei"
+        },
+        {
             "title": "Ultimate Stone",
             "description": "This addon adds new items to your game that uses a material made with various types of stone.",
             "video": "https://www.youtube.com/embed/M-broNw4UR8?si=COhSEmuDiGAP5Q0E",
             "download": "https://loot-link.com/s?o3cW",
             "image": "https://api.mcpedl.com/storage/submissions/109196/100/169714777582901_1-520x245.png",
             "link": "/addon/ultimate-stone",
-            "tag": "items, survival, utility, magic, tools, weapons"
+            "tag": "items, survival, utility, magic, tools, weapons",
+            "creator": "Blayy Developer"
         },
         {
             "title": "Skilled Items",
@@ -16,7 +27,8 @@
             "download": "https://lootdest.com/s?ok9K",
             "image": "https://api.mcpedl.com/storage/submissions/73999/113/1696983358277_1-520x245.png",
             "link": "/addon/skilled-items",
-            "tag": "items, survival, utility, magic, tools, weapons"
+            "tag": "items, survival, utility, magic, tools, weapons",
+            "creator": "Blayy Developer"
         },
         {
             "title": "Fantastic Bags", 
@@ -25,7 +37,8 @@
             "download": "https://loot-link.com/s?nB1M",
             "image": "https://api.mcpedl.com/storage/submissions/113553/100/170637391611101_1-520x245.png",
             "link": "/addon/fantastic-bags",
-            "tag": "items, survival, utility"
+            "tag": "items, survival, utility",
+            "creator": "Blayy Developer"
         },
         {
             "title": "Evolution Magic Weapons",
@@ -34,7 +47,8 @@
             "download": "https://lootdest.com/s?nr7N",
             "image": "https://api.mcpedl.com/storage/submissions/107965/101/170615867189601_1-520x245.png",
             "link": "/addon/evolution-magic-weapons",
-            "tag": "items, survival, weapons, magic"
+            "tag": "items, survival, weapons, magic",
+            "creator": "Blayy Developer"
         }, 
            {
             "title": "Fantastic Additions",
@@ -43,7 +57,8 @@
             "download": "https://loot-link.com/s?m9lY",
             "image": "https://modbay.org/uploads/posts/2024-01/fantastic-additions-main-cover.jpg",
             "link": "/addon/fantastic-additions",
-            "tag": "items, survival, utility"
+            "tag": "items, survival, utility",
+            "creator": "Blayy Developer"
         },
              {
             "title": "Insane Buffed Mobs",
@@ -52,7 +67,8 @@
             "download": "https://loot-link.com/s?qZ1z",
             "image": "https://modbay.org/uploads/posts/2023-12/insane-buffed-mobs-main-cover.png",
             "link": "/addon/insane-buffed-mobs",
-            "tag": "mobs, survival, difficulty"
+            "tag": "mobs, survival, difficulty",
+            "creator": "Blayy Developer"
         },
              {
             "title": "Portable Furnaces",
@@ -61,7 +77,8 @@
             "download": "https://lootdest.com/s?qZ1r",
             "image": "https://api.mcpedl.com/storage/submissions/110366/100/170018330782001_1-520x245.png",
             "link": "/addon/portable-furnaces",
-            "tag": "items, survival, utility"
+            "tag": "items, survival, utility",
+            "creator": "Blayy Developer"
         },
         {
             "title": "Prismarite Addon",
@@ -70,7 +87,8 @@
             "download": "https://loot-link.com/s?p3by",
             "image": "https://api.mcpedl.com/storage/submissions/108643/100/pegueiojeito_1-520x245.png",
             "link": "/addon/prismarite-addon",
-            "tag": "items, survival, utility, magic, tools, weapons"
+            "tag": "items, survival, utility, magic, tools, weapons",
+            "creator": "Blayy Developer"
         },
           {
             "title": "Magma Expansion",
@@ -79,7 +97,8 @@
             "download": "https://lootdest.com/s?p3a1",
             "image": "https://api.mcpedl.com/storage/submissions/108195/100/169482457605601_1-520x245.png",
             "link": "/addon/magma-expansion",
-            "tag": "items, survival, utility, magic, tools, weapons"
+            "tag": "items, survival, utility, magic, tools, weapons",
+            "creator": "Blayy Developer"
         }
     ],
     "addonspacks": [
