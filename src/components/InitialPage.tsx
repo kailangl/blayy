@@ -37,6 +37,7 @@ const InitialPage: FC = (): React.ReactNode => {
                             <h1 className="text-[30px] font-bold">- BLAYY DEVELOPER WEBSITE -</h1>
                             <div className="flex gap-3 text-bluetext tablet:w-[46vw] w-[300px]">
                             <button onClick={() => {setSelected(4); setPage(0); setPages(1) }} className={`${selected === 4 ? "bg-blueborder text-black" : ""} hover:bg-blueborder shadow-blueshadow shadow-xl hover:text-black transtion-colors duration-300 border-4 border-blueborder bg-bluebg text-center p-2 px-4 font-bold flex flex-grow justify-center items-center`}>ABOUT-US</button>
+                          
                             </div>
                         </div>
                     </div>
