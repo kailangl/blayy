@@ -2,6 +2,7 @@ import { FC } from "react";
 
 const SearchBar: FC<{ query: string, setQuery: (value: string) => void }> = ({ query, setQuery }): React.ReactNode => {
   const handleChange = (event: any) => {
+    
     return setQuery(event.target.value);
   }
   

@@ -54,11 +54,12 @@ const InitialPage: FC = (): React.ReactNode => {
                     {selected === 1 ? <h1 className="font-bold tablet:text-[30px] text-[80px] drop-shadow-xl shadow-bluetext">ADDONS</h1> : selected > 2 ? <></> : <div className="font-bold tablet:text-[30px] text-[80px] drop-shadow-xl shadow-bluetext">MODPACKS</div>}
                 </div>
                 <SearchBar query={query} setQuery={setQuery} />
+                
                 <section className="w-[100vw] flex justify-center items-center max-w-[1500px]">
                     <div className={selected === 4 ? "flex items-center w-full justify-center" : "grid grid-cols-2 tablet:grid-cols-1 place-items-center gap-4 mb-4"}>
                         {selected === 1 ? (
                             addons.addons.filter((addon) => addon.title.toLowerCase().includes(query.toLowerCase())).map((addon, index) => (
-                                index < page+4 && index >= page && (
+                                ((index < page + 4 && index >= page) || (addon.title.toLowerCase().includes(query.toLowerCase())) && query != "")  && (
                                     <Link key={index} to={addon.link} className="w-[600px] tablet:w-[95vw] h-[300px] hover:shadow-blueshadow hover:shadow-2xl transition-all duration-300 border-4 border-blueborder flex items-center justify-center">
                                     <div className="m-3 h-full w-full flex border-4 border-t-0 border-b-0 border-blueborder">
                                         <div className="bg-bluebg border-b-0 border-l-0 border-blueborder text-bluetext border-4 h-[30px] absolute mt-[263px] text-center font-bold px-2">{addon.title}</div>
@@ -69,7 +70,7 @@ const InitialPage: FC = (): React.ReactNode => {
                             ))
                         ) : selected === 2 ? (            
                             addons.addonspacks.filter((addon) => addon.title.toLowerCase().includes(query.toLowerCase())).map((addon, index) => (
-                                index < page+4 && index >= page && (
+                                ((index < page + 4 && index >= page) || (addon.title.toLowerCase().includes(query.toLowerCase())) && query != "")  && (
                                 <Link key={index} to={addon.link} className="w-[600px] tablet:w-[95vw]   h-[300px] hover:shadow-blueshadow hover:shadow-2xl transition-all duration-300 border-4 border-blueborder flex items-center justify-center">
                                     <div className="m-3 h-full w-full flex border-4 border-t-0 borderww-b-0 border-blueborder">
                                         <div className="bg-bluebg border-b-0 border-l-0 border-blueborder text-bluetext border-4 h-[30px] absolute mt-[263px] text-center font-bold px-2">{addon.title}</div>
@@ -80,14 +81,14 @@ const InitialPage: FC = (): React.ReactNode => {
                             ))
                         ) : selected === 3 ? (
                             wiki.wiki.filter((wiki1) => wiki1.name.toLowerCase().includes(query.toLowerCase())).map((wiki1, index) => (
-                                index < page+6 && index >= page && (
+                                ((index < page + 4 && index >= page) || (wiki1.name.toLowerCase().includes(query.toLowerCase())) && query != "")  && (
                                 <Link key={index} to={wiki1.link} className="w-[300px] tablet:w-[47vw] h-[150px] hover:shadow-blueshadow hover:shadow-2xl transition-all duration-150 border-2 border-blueborder flex items-center justify-center">
                                     <div className="m-1 h-full w-full flex border-2 border-t-0 border-b-0 border-blueborder">
                                         <div className="bg-bluebg border-b-0 border-l-0 border-blueborder text-bluetext border-2 h-[18px] absolute mt-[128px] text-center font-bold px-1"><h1 className="text-[10px]">{wiki1.name} - {wiki1.addon}</h1></div>
                                         <img className="w-full h-full object-cover" src={wiki1.image} />
                                     </div>
                                 </Link>
-                                )
+                                ) 
                             ))
                         )  : selected === 4 ? (
                             <AboutPage />
@@ -131,6 +132,7 @@ const InitialPage: FC = (): React.ReactNode => {
                <div>
                </div>
             </div>
+      
         </main>
     )
 
