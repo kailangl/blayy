@@ -34,7 +34,7 @@ const InitialPage: FC = (): React.ReactNode => {
                 <header className="w-[100vw] h-[200px] max-w-[1500px] flex items-center justify-center tablet:mt-28">
                     <div className="absolute tablet:mr-0 mr-[1200px] top-1">
                         <div className="flex items-center justify-center flex-col gap-3">
-                            <h1 className="text-[30px] font-bold">- BLAYY DEVELOPER WEBSITE -</h1>
+                            <h1 className="text-[30px] font-bold drop-shadow-xl ">BLAYY DEVELOPER</h1>
                             <div className="flex gap-3 text-bluetext tablet:w-[46vw] w-[300px]">
                             <button onClick={() => {setSelected(4); setPage(0); setPages(1) }} className={`${selected === 4 ? "bg-blueborder text-black" : ""} hover:bg-blueborder shadow-blueshadow shadow-xl hover:text-black transtion-colors duration-300 border-4 border-blueborder bg-bluebg text-center p-2 px-4 font-bold flex flex-grow justify-center items-center`}>ABOUT-US</button>
                           
@@ -42,16 +42,18 @@ const InitialPage: FC = (): React.ReactNode => {
                         </div>
                     </div>
                     <div className="flex flex-col items-center justify-center">
-                        <h1 className="font-bold tablet:text-[30px] text-[100px] drop-shadow-xl shadow-bluetext">ADDON LIST</h1>
-                        <div className="flex gap-3 text-bluetext tablet:w-[95vw] w-[600px]">
-                            <button onClick={() => {setSelected(2); setPage(0); setPages(1) }} className={`${selected === 2 ? "bg-blueborder text-black" : ""} hover:bg-blueborder shadow-blueshadow shadow-xl hover:text-black transtion-colors duration-300 border-4 border-blueborder bg-bluebg text-center p-2 px-4 font-bold flex flex-grow justify-center items-center`}>MODPACKS</button>
-                            <button onClick={() => {setSelected(1); setPage(0); setPages(1) }}  className={`${selected === 1 ? "bg-blueborder text-black" : ""} hover:bg-blueborder shadow-blueshadow shadow-xl hover:text-black transtion-colors duration-300 border-4 border-blueborder bg-bluebg text-center p-2 px-4 font-bold flex flex-grow justify-center items-center`}>ADDONS</button>
+                        <h1 className="font-bold tablet:text-[30px] text-[100px] textt-shadow">ADDON LIST</h1> 
+                        <div className="flex gap-1 text-bluetext tablet:w-[95vw] w-[600px]">
+                            <button onClick={() => {setSelected(2); setPage(0); setPages(1) }} className={`${selected === 2 ? "bg-blueborder text-black" : ""} hover:bg-blueborder shadow-blueshadow shadow-xl hover:text-black transtion-colors duration-300 border-4 border-blueborder bg-bluebg text-center p-2 px-4 font-bold flex flex-grow justify-center items-center`}>MODPACKS</button>  <img src="https://cdn.discordapp.com/attachments/1221560323350462474/1223387330359070829/azul_cristal01_1080_1080-removebg-preview.png?ex=6619ab3c&is=6607363c&hm=b1bd9802f6b5a4dde5f92a11b633d25894141bdf36517ddf0ca36960906a7637&" className="max-w-[50px] tablet:w-[0vw]" />
+                            <button onClick={() => {setSelected(1); setPage(0); setPages(1) }}  className={`${selected === 1 ? "bg-blueborder text-black" : ""} hover:bg-blueborder shadow-blueshadow shadow-xl hover:text-black transtion-colors duration-300 border-4 border-blueborder bg-bluebg text-center p-2 px-4 font-bold flex flex-grow justify-center items-center`}>ADDONS</button>  <img src="https://cdn.discordapp.com/attachments/1221560323350462474/1223387330648342649/SKILLED_PICKAXE01_1080_1080-removebg-preview.png?ex=6619ab3d&is=6607363d&hm=ac43d74ee1c6b8435a34e502726e730be29ff7fc12eae35fd06d56ebeac3332d&" className="max-w-[50px] tablet:w-[0vw]" />
                             <button onClick={() => {setSelected(3); setPage(0); setPages(1) }} className={`${selected === 3 ? "bg-blueborder text-black" : ""} hover:bg-blueborder shadow-blueshadow shadow-xl hover:text-black transtion-colors duration-300 border-4 border-blueborder bg-bluebg text-center p-2 px-4 font-bold flex flex-grow justify-center items-center`}>WIKI</button>
+
+                            <img src="https://cdn.discordapp.com/attachments/1221560323350462474/1223387330359070829/azul_cristal01_1080_1080-removebg-preview.png?ex=6619ab3c&is=6607363c&hm=b1bd9802f6b5a4dde5f92a11b633d25894141bdf36517ddf0ca36960906a7637&" className="max-w-[0px] tablet:w-[95vw]" />
                         </div>
                     </div>
                 </header>
                 <div className="flex w-full items-center justify-center">
-                    {selected === 1 ? <h1 className="font-bold tablet:text-[30px] text-[80px] drop-shadow-xl shadow-bluetext">ADDONS</h1> : selected > 2 ? <></> : <div className="font-bold tablet:text-[30px] text-[80px] drop-shadow-xl shadow-bluetext">MODPACKS</div>}
+
                 </div>
                 <SearchBar query={query} setQuery={setQuery} />
                 
@@ -97,38 +99,45 @@ const InitialPage: FC = (): React.ReactNode => {
                         )}
                     </div>
                 </section>
-                <div className="flex flex-col w-full items-center justify-center">
-                    
-                    {selected === 1 && addons.addons[page+4] != undefined ? (
-                        <button onClick={() => pular()} className="hover:bg-blueborder shadow-blueshadow shadow-xl hover:text-black transtion-colors duration-300 border-4 border-blueborder text-bluetext cursor-pointer bg-bluebg text-center p-2 px-4 font-bold flex flex-grow justify-center mt-10 w-[400px] tablet:w-[95vw]">Next Page</button>
-                    ) : selected === 2 && addons.addonspacks[page+4] != undefined ? (
-                        <button onClick={() => pular()} className="hover:bg-blueborder shadow-blueshadow shadow-xl hover:text-black transtion-colors duration-300 border-4 border-blueborder text-bluetext cursor-pointer bg-bluebg text-center p-2 px-4 font-bold flex flex-grow justify-center mt-10 w-[400px] tablet:w-[95vw]">Next Page</button>
-                    ) : selected === 3 && wiki.wiki[page+6] != undefined ? (
-                        <button onClick={() => pular1()} className="hover:bg-blueborder shadow-blueshadow shadow-xl hover:text-black transtion-colors duration-300 border-4 border-blueborder text-bluetext cursor-pointer bg-bluebg text-center p-2 px-4 font-bold flex flex-grow justify-center mt-10 w-[400px] tablet:w-[95vw]">Next Page</button>
-                    ) : selected < 4 ? (
-                        <button onClick={() => alert("you have already reached the last page")} className="hover:bg-blueborder shadow-blueshadow shadow-xl hover:text-black transtion-colors duration-300 border-4 border-blueborder text-bluetext cursor-pointer bg-bluebg text-center p-2 px-4 font-bold flex flex-grow justify-center mt-10 w-[400px] tablet:w-[95vw]">Next Page</button>
-                    ) : (
-<h1></h1>
-                    )}
+                <div className="flex w-full items-center justify-center">
+                <div className="flex gap-1 text-bluetext tablet:w-[95vw] w-[600px]">
+                <h1 className=" text-blueborder">+*</h1>  
                 {selected === 1 && addons.addons[page-4] != undefined ? (
-                        <button onClick={() => voltar()} className="hover:bg-blueborder shadow-blueshadow shadow-xl hover:text-black transtion-colors duration-300 border-4 border-blueborder text-bluetext cursor-pointer bg-bluebg text-center p-2 px-4 font-bold flex flex-grow justify-center mt-10 w-[400px] tablet:w-[95vw]">Previous Page</button>
+                        <button onClick={() => voltar()} className="hover:bg-blueborder  shadow-blueshadow shadow-xl hover:text-black transtion-colors duration-300 border-4 border-blueborder bg-bluebg text-center p-2 px-4 font-bold flex flex-grow justify-center items-center">Previous Page</button>
                     ) : selected === 2 && addons.addonspacks[page-4] != undefined ? (
-                        <button onClick={() => voltar()} className="hover:bg-blueborder shadow-blueshadow shadow-xl hover:text-black transtion-colors duration-300 border-4 border-blueborder text-bluetext cursor-pointer bg-bluebg text-center p-2 px-4 font-bold flex flex-grow justify-center mt-10 w-[400px] tablet:w-[95vw]">Previous Page</button>
+                        <button onClick={() => voltar()} className="hover:bg-blueborder  shadow-blueshadow shadow-xl hover:text-black transtion-colors duration-300 border-4 border-blueborder bg-bluebg text-center p-2 px-4 font-bold flex flex-grow justify-center items-center">Previous Page</button>
                     ) : selected === 3 && wiki.wiki[page-6] != undefined ? (
-                        <button onClick={() => voltar1()} className="hover:bg-blueborder shadow-blueshadow shadow-xl hover:text-black transtion-colors duration-300 border-4 border-blueborder text-bluetext cursor-pointer bg-bluebg text-center p-2 px-4 font-bold flex flex-grow justify-center mt-10 w-[400px] tablet:w-[95vw]">Previous Page</button>
+                        <button onClick={() => voltar1()} className="hover:bg-blueborder  shadow-blueshadow shadow-xl hover:text-black transtion-colors duration-300 border-4 border-blueborder bg-bluebg text-center p-2 px-4 font-bold flex flex-grow justify-center items-center">Previous Page</button>
                     ) : selected < 4 ? (
-                        <button onClick={() => alert("you can't go back to non-existent pages")} className="hover:bg-blueborder shadow-blueshadow shadow-xl hover:text-black transtion-colors duration-300 border-4 border-blueborder text-bluetext cursor-pointer bg-bluebg text-center p-2 px-4 font-bold flex flex-grow justify-center mt-10 w-[400px] tablet:w-[95vw]">Previous Page</button>
+                        <button onClick={() => alert("you can't go back to non-existent pages")} className="hover:bg-blueborder shadow-blueshadow shadow-xl hover:text-black transtion-colors duration-300 border-4 border-blueborder bg-bluebg text-center p-2 px-4 font-bold flex flex-grow justify-center items-center">Previous Page</button>
                     ) : (
 <h1></h1>
                     )}
-                    {selected < 4 ? (
-   <h1> Page {pages}</h1>
+                    <h1 className=" text-blueborder"></h1>
+               
+                    {selected === 1 && addons.addons[page+4] != undefined ? (
+                        <button onClick={() => pular()} className="hover:bg-blueborder  shadow-blueshadow shadow-xl hover:text-black transtion-colors duration-300 border-4 border-blueborder bg-bluebg text-center p-2 px-4 font-bold flex flex-grow justify-center items-center">Next Page</button>
+                    ) : selected === 2 && addons.addonspacks[page+4] != undefined ? (
+                        <button onClick={() => pular()} className="hover:bg-blueborder  shadow-blueshadow shadow-xl hover:text-black transtion-colors duration-300 border-4 border-blueborder bg-bluebg text-center p-2 px-4 font-bold flex flex-grow justify-center items-center">Next Page</button>
+                    ) : selected === 3 && wiki.wiki[page+6] != undefined ? (
+                        <button onClick={() => pular1()} className="hover:bg-blueborder  shadow-blueshadow shadow-xl hover:text-black transtion-colors duration-300 border-4 border-blueborder bg-bluebg text-center p-2 px-4 font-bold flex flex-grow justify-center items-center">Next Page</button>
+                    ) : selected < 4 ? (
+                        <button onClick={() => alert("you have already reached the last page")} className="hover:bg-blueborder shadow-blueshadow shadow-xl hover:text-black transtion-colors duration-300 border-4 border-blueborder bg-bluebg text-center p-2 px-4 font-bold flex flex-grow justify-center items-center">Next Page</button>
+                    ) : (
+<h1></h1>
+                    )}
+              
+                <h1 className=" text-blueborder">*+</h1>  
+                </div>
+                </div>
+                {selected < 4 ? (
+                        <div>
+ <h1>- Page {pages} -</h1>
+                        </div>
+  
                     ) : (
 <h1>About</h1>
                     )}
-                  
-                </div>
-                
                <div>
                </div>
             </div>

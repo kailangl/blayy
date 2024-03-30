@@ -9,8 +9,10 @@ const SearchBar: FC<{ query: string, setQuery: (value: string) => void }> = ({ q
   return (
     <div className="w-full flex items-center justify-center">
       <div className="max-w-[500px] w-full flex p-3">
-        <div className="w-full h-10 border-blueborder border-4">
+        <div className="w-full h-10 border-blueborder border-4 shadow-blueshadow shadow-blueshadow shadow-xl">
+      
           <input value={query} onChange={handleChange} placeholder="Search here...                       "  className="bg-transparent focus:outline-none p-1"/>
+          
         </div>
       </div>
     </div>

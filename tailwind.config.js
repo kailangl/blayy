@@ -6,10 +6,10 @@ export default {
   theme: {
     extend: {
       colors: {
-        "bluebg": "#281e28",
-        "blueborder": "#ffffff",
-        "bluetext": "#9d18e8",
-        "blueshadow": "#3a194c"
+        "bluebg": "#16131B",
+        "blueborder": "#9DAEE5",
+        "bluetext": "#CFA6FF",
+        "blueshadow": "#1C3468"
       },
     },
     screens: {
