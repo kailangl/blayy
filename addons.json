@@ -1,6 +1,17 @@
 {
     "addons": [
         {
+            "title": "Darkness Expansion",
+            "description": "This addon adds creatures and items with the theme of darkness.All items that are not obtained in the crafting table are dropped from mobs. most mobs spawn in the negative layers, but Blizzard only spawns in the dark dungeon.",
+            "video": "https://youtube.com/embed/6ppaktUVIQY",
+            "downloadrp": "https://loot-link.com/s?vt0g",
+            "downloadbp": "https://loot-link.com/s?vtZc",
+            "image": "https://api.mcpedl.com/storage/submissions/102218/102/171237831677102_1-520x245.png",
+            "link": "/addon/darkness-expansion",
+            "tag": "items, utility",
+            "creator": "Spyei"
+        },
+        {
             "title": "Smartphone Addon",
             "description": "A phone that adds features never seen before in Minecraft Bedrock/Minecraft PE;Remember to activate the experiments for the addon to work perfectly! addon is in english, spanish and portuguese. THIS ADDON IS IN BETA!!!",
             "video": "https://www.youtube.com/embed/t08vUMkwL_Y?si=WVAui-48tmGGu0vz",
@@ -103,12 +114,12 @@
     ],
     "addonspacks": [
         {
-            "title": "Stable Modpack",
-            "description": "This addon expands the usefulness of netherite by creating a new template. With it, you can create armor and prismarite tools to help with your aquatic experience. With this addon you can explore several oceans and even mine underwater without any worry.",
-            "video": "https://www.youtube.com/embed/mHXojsP_7lo?si=WJ1zDnzeSz2EcVBR",
-            "download": "https://www.vatonage.com/post/prismarite-addon",
-            "image": "https://api.mcpedl.com/storage/submissions/108643/100/pegueiojeito_1-520x245.png",
-            "link": "/addonpack/stable-modpack",
+            "title": "Allblayymods",
+            "description": "Coming Soon",
+            "video": "",
+            "download": "",
+            "image": "",
+            "link": "/addonpack/allblayymods",
             "tag": "items, survival, utility, magic, tools, weapons, mobs, difficulty"
         }
     ]
