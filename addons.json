@@ -1,6 +1,17 @@
 {
     "addons": [
         {
+            "title": "Skilled Items",
+            "description": "This addon adds items with special abilities, all items have an interesting mechanic that will contribute to your survival. All tools are enchanting and repairable, and each one has its advantages. \naa",
+            "video": "https://www.youtube.com/embed/PVr8XCRiF1M?si=flpLidiee4qfEAqG",
+            "downloadrp": "https://loot-link.com/s?xo91",
+            "downloadbp": "https://loot-link.com/s?xo9x",
+            "image": "https://api.mcpedl.com/storage/submissions/73999/113/1696983358277_1-520x245.png",
+            "link": "/addon/skilled-items",
+            "tag": "items, survival, utility, magic, tools, weapons",
+            "creator": "Blayy Developer"
+        },
+        {
             "title": "Darkness Expansion",
             "description": "This addon adds creatures and items with the theme of darkness.All items that are not obtained in the crafting table are dropped from mobs. most mobs spawn in the negative layers, but Blizzard only spawns in the dark dungeon.",
             "video": "https://youtube.com/embed/6ppaktUVIQY",
@@ -28,16 +39,6 @@
             "download": "https://loot-link.com/s?o3cW",
             "image": "https://api.mcpedl.com/storage/submissions/109196/100/169714777582901_1-520x245.png",
             "link": "/addon/ultimate-stone",
-            "tag": "items, survival, utility, magic, tools, weapons",
-            "creator": "Blayy Developer"
-        },
-        {
-            "title": "Skilled Items",
-            "description": "This addon adds items with special abilities, all items have an interesting mechanic that will contribute to your survival. All tools are enchanting and repairable, and each one has its advantages. \naa",
-            "video": "https://www.youtube.com/embed/PVr8XCRiF1M?si=flpLidiee4qfEAqG",
-            "download": "https://lootdest.com/s?ok9K",
-            "image": "https://api.mcpedl.com/storage/submissions/73999/113/1696983358277_1-520x245.png",
-            "link": "/addon/skilled-items",
             "tag": "items, survival, utility, magic, tools, weapons",
             "creator": "Blayy Developer"
         },
