@@ -1,6 +1,18 @@
 {
     "addons": [
         {
+            "title": "Level Statistics",
+            "description": "This addon adds new Statistics from your game",
+            "video": "https://youtube.com/embed/6ppaktUVIQY",
+            "downloadrp": "https://loot-link.com/s?vt0g",
+            "downloadbp": "https://loot-link.com/s?vtZc",
+            "downloadl": "https://link-hub.net/345156/darkness-expansion",
+            "image": "https://api.mcpedl.com/storage/submissions/102218/102/171237831677102_1-520x245.png",
+            "link": "/addon/darkness-expansion",
+            "tag": "items, utility",
+            "creator": "Spyei"
+        },
+        {
             "title": "Skilled Items",
             "description": "This addon adds items with special abilities, all items have an interesting mechanic that will contribute to your survival. All tools are enchanting and repairable, and each one has its advantages. \naa",
             "video": "https://www.youtube.com/embed/PVr8XCRiF1M?si=flpLidiee4qfEAqG",
