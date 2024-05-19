@@ -1,11 +1,36 @@
 {
     "addons": [
         {
+            "title": "Harder Reality",
+            "description": "This addon makes your game more difficult",
+            "video": "https://www.youtube.com/embed/1t9sIAyNAZE?si=aDjiFN_mznFy1pTP",
+            "downloadrp": "https://lootdest.com/s?ICWx",
+            "downloadbp": "https://loot-link.com/s?ICWR",
+            "downloadl": "https://link-hub.net/345156/harder-reality",
+            "image": "https://i.ytimg.com/vi/1t9sIAyNAZE/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAOlI5ZH_ElbgBl9IhHEhIsP90UWA",
+            "link": "/addon/harder-reality",
+            "tag": "survival, items, hard",
+            "creator": "Blayy Developer"
+        }, 
+        {            
+            "title": "Level Statistics",
+            "description": "This addon adds new Statistics from your game",
+            "video": "https://www.youtube.com/embed/0G2cMkEI90g?si=-Ooi_ETSWFJXuOWY",
+            "downloadrp": "https://lootdest.com/s?Gq3Q",
+            "downloadbp": "https://loot-link.com/s?Gq5e",
+            "downloadl": "https://link-hub.net/345156/level-statistics",
+            "image": "https://i.ytimg.com/vi/_kuHeki1np4/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA3CG_oQiq2v0A8XQozA5Q4d7QQ-A",
+            "link": "/addon/level-statistics",
+            "tag": "survival, hard",
+            "creator": "Blayy Developer"
+        },
+        {
             "title": "Skilled Items",
             "description": "This addon adds items with special abilities, all items have an interesting mechanic that will contribute to your survival. All tools are enchanting and repairable, and each one has its advantages. \naa",
             "video": "https://www.youtube.com/embed/PVr8XCRiF1M?si=flpLidiee4qfEAqG",
             "downloadrp": "https://loot-link.com/s?xo91",
             "downloadbp": "https://loot-link.com/s?xo9x",
+            "downloadl": "https://link-hub.net/345156/skilled-items",
             "image": "https://api.mcpedl.com/storage/submissions/73999/113/1696983358277_1-520x245.png",
             "link": "/addon/skilled-items",
             "tag": "items, survival, utility, magic, tools, weapons",
@@ -17,10 +42,11 @@
             "video": "https://youtube.com/embed/6ppaktUVIQY",
             "downloadrp": "https://loot-link.com/s?vt0g",
             "downloadbp": "https://loot-link.com/s?vtZc",
+            "downloadl": "https://link-hub.net/345156/darkness-expansion",
             "image": "https://api.mcpedl.com/storage/submissions/102218/102/171237831677102_1-520x245.png",
             "link": "/addon/darkness-expansion",
             "tag": "items, utility",
-            "creator": "Spyei"
+            "creator": "Blayy Developer"
         },
         {
             "title": "Smartphone Addon",
@@ -46,7 +72,9 @@
             "title": "Fantastic Bags", 
             "description": "This addon adds a lot of bags to your game",
             "video": "https://www.youtube.com/embed/EkCV5TwZc5Y?si=sBFCfkZ0ktalk1E4",
-            "download": "https://loot-link.com/s?nB1M",
+            "downloadrp": "https://loot-link.com/s?nB1M",
+            "downloadbp": "https://loot-link.com/s?zEeB",
+            "downloadl": "https://direct-link.net/345156/fantastic-bags-addon",
             "image": "https://api.mcpedl.com/storage/submissions/113553/100/170637391611101_1-520x245.png",
             "link": "/addon/fantastic-bags",
             "tag": "items, survival, utility",
