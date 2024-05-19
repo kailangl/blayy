@@ -41,6 +41,7 @@ const InitialPage: FC = (): React.ReactNode => {
                         <div className="flex items-center justify-center flex-col gap-3">
                             <h1 className="text-[30px] font-bold drop-shadow-xl ">BLAYY DEVELOPER</h1>
                             <div className="flex gap-3 text-bluetext tablet:w-[46vw] w-[300px]">
+                                
                             <button onClick={() => {setSelected(4); setPage(0); setPages(1) }} className={`${selected === 4 ? "bg-blueborder text-black" : ""} hover:bg-blueborder shadow-blueshadow shadow-xl hover:text-black transtion-colors duration-300 border-4 border-blueborder bg-bluebg text-center p-2 px-4 font-bold flex flex-grow justify-center items-center`}>ABOUT-US</button>
                           
                             </div>
@@ -48,9 +49,9 @@ const InitialPage: FC = (): React.ReactNode => {
                     </div>
                     <div className="flex flex-col items-center justify-center">
                         <h1 className="font-bold tablet:text-[30px] text-[100px] textt-shadow">ADDON LIST</h1>
-                        {user.username}
-
+                        
                         <div className="flex gap-1 text-bluetext tablet:w-[95vw] w-[600px]">
+                            {user.username}
                             <button onClick={() => {setSelected(2); setPage(0); setPages(1) }} className={`${selected === 2 ? "bg-blueborder text-black" : ""} hover:bg-blueborder shadow-blueshadow shadow-xl hover:text-black transtion-colors duration-300 border-4 border-blueborder bg-bluebg text-center p-2 px-4 font-bold flex flex-grow justify-center items-center`}>MODPACKS</button>  <img src="https://cdn.discordapp.com/attachments/1221560323350462474/1223387330359070829/azul_cristal01_1080_1080-removebg-preview.png?ex=662c203c&is=6619ab3c&hm=e210c486def9aac56261a59f12b8aedb713e99035f9ccb980459450d79ecc026&" className="max-w-[50px] tablet:w-[0vw]" />
                             <button onClick={() => {setSelected(1); setPage(0); setPages(1) }}  className={`${selected === 1 ? "bg-blueborder text-black" : ""} hover:bg-blueborder shadow-blueshadow shadow-xl hover:text-black transtion-colors duration-300 border-4 border-blueborder bg-bluebg text-center p-2 px-4 font-bold flex flex-grow justify-center items-center`}>ADDONS</button>  <img src="https://cdn.discordapp.com/attachments/1221560323350462474/1223387330648342649/SKILLED_PICKAXE01_1080_1080-removebg-preview.png?ex=662c203d&is=6619ab3d&hm=9b540d303e71a0886c1fed6a12a0217b151b49de9286ea087e1b9da102578472&" className="max-w-[50px] tablet:w-[0vw]" />
                             <button onClick={() => {setSelected(3); setPage(0); setPages(1) }} className={`${selected === 3 ? "bg-blueborder text-black" : ""} hover:bg-blueborder shadow-blueshadow shadow-xl hover:text-black transtion-colors duration-300 border-4 border-blueborder bg-bluebg text-center p-2 px-4 font-bold flex flex-grow justify-center items-center`}>WIKI</button>
