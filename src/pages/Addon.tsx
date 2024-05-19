@@ -31,7 +31,7 @@ const AddonPage: FC = () => {
         target="_blank"
         className="hover:bg-blueborder shadow-blueshadow shadow-xl hover:text-black transition-colors duration-300 border-4 border-blueborder text-bluetext cursor-pointer bg-bluebg text-center p-2 px-4 font-bold flex flex-grow justify-center mt-10 w-[400px] tablet:w-[95vw]"
       >
-        Download RP
+        Download RP Lootlabs (mcpedl safe)
       </a>
     )}
     {addon.downloadbp && (
@@ -40,9 +40,18 @@ const AddonPage: FC = () => {
         target="_blank"
         className="hover:bg-blueborder shadow-blueshadow shadow-xl hover:text-black transition-colors duration-300 border-4 border-blueborder text-bluetext cursor-pointer bg-bluebg text-center p-2 px-4 font-bold flex flex-grow justify-center mt-10 w-[400px] tablet:w-[95vw]"
       >
-        Download BP
+        Download BP Lootlabs (mcpedl safe)
       </a>
     )}
+     {addon.downloadl && (
+      <a
+        href={addon.downloadl}
+        target="_blank"
+        className="hover:bg-blueborder shadow-blueshadow shadow-xl hover:text-black transition-colors duration-300 border-4 border-blueborder text-bluetext cursor-pointer bg-bluebg text-center p-2 px-4 font-bold flex flex-grow justify-center mt-10 w-[400px] tablet:w-[95vw]"
+      >
+        Download Linkvertise MCADDON (for best support)
+      </a>
+    )}                       
     {addon.download && (
       <a
         href={addon.download}
