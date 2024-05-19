@@ -11,7 +11,17 @@ const InitialPage: FC = (): React.ReactNode => {
     const [page, setPage] = useState(0);
     const [pages, setPages] = useState(1);
     const [query, setQuery] = useState<string>("");
-      
+      const storedUser = localStorage.getItem('loggedInUser');
+   var username;
+if (storedUser) {
+   const user = JSON.parse(storedUser);
+     var username = user.username
+    // Agora você pode usar o objeto 'user' aqui
+} else {
+   var username = "null"
+    // Trate o caso em que 'loggedInUser' não está presente no localStorage
+}
+
     function pular() {
         setPage(page + 4);
         setPages(pages +1)
@@ -30,7 +40,7 @@ const InitialPage: FC = (): React.ReactNode => {
       }
     return (
         <main className="w-[100vw] bg-bluebg bg-fixed overflow-x-hidden text-white flex justify-center">
-  
+            {username}
             <div className="flex flex-col max-w-[1500px] w-[100vw] h-[100%] justify-center gap-5">
                 <header className="w-[100vw] h-[200px] max-w-[1500px] flex items-center justify-center tablet:mt-28">
                     <div className="absolute tablet:mr-0 mr-[1200px] top-1">
