@@ -92,7 +92,7 @@ const InitialPage: FC = (): React.ReactNode => {
                         ) : selected === 3 ? (
                             user1.users.filter((user1) => user1.username.toLowerCase().includes(query.toLowerCase())).map((user1, index) => (
                                 ((index < page + 4 && index >= page) || (user1.username.toLowerCase().includes(query.toLowerCase())) && query != "")  && (
-                                <Link key={index} to={user1.link} className="w-[150px] tablet:w-[95vw]  h-[150px] hover:shadow-blueshadow hover:shadow-2xl transition-all duration-300 border-4 border-blueborder flex items-center justify-center">
+                                <Link key={index} to={user1.link} className="w-[150px]  h-[150px] hover:shadow-blueshadow hover:shadow-2xl transition-all duration-300 border-4 border-blueborder flex items-center justify-center">
                                <div className="m-3 h-full w-full flex  border-4 border-t- borderww-b-2 border-blueborder">
                                         <div className="bg-bluebg border-b-0 border-l-0 border-blueborder text-bluetext border-4 h-[30px] absolute mt-[128px] text-center font-bold px-1">{user1.username}</div>
                                         <img className="w-full h-full object-cover" src={user1.image} />
