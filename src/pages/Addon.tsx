@@ -7,8 +7,14 @@ import Markdown from 'react-markdown';
 const AddonPage: FC = () => {
     const params = useParams<Params>();
     const addonName = params.addon;
+    
     const addon = addons.addons.find(addon => addon.link.replace("/addon/", "") === addonName);
+    
+
     window.scrollTo(0, 9)
+    function cr() {
+      window.open( `/users/${addon?.creator.replace(" ", "-").toLowerCase()}`)
+    }
     return addon ? (
         <>   
        
@@ -67,7 +73,7 @@ const AddonPage: FC = () => {
 
                         
                         
-                        <h1 className="text-white text-[20px] w-[50%] tablet:w-[95vw]">-+ {addon.creator} +-</h1>
+                        <button className="text-white text-[20px] w-[50%] tablet:w-[95vw]" onClick={() => cr()}>-+ {addon.creator} +-</button>
                     </div>
                 </div>
              
