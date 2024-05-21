@@ -12,10 +12,18 @@ const InitialPage: FC = (): React.ReactNode => {
     const [page, setPage] = useState(0);
     const [pages, setPages] = useState(1);
     const [query, setQuery] = useState<string>("");
+<<<<<<< HEAD
     const storedUser = localStorage.getItem('loggedInUser');   
     const user = JSON.parse(storedUser as string)
 
       
+=======
+      const storedUser = localStorage.getItem('loggedInUser');   
+       const user = JSON.parse(storedUser as string)
+
+     
+
+>>>>>>> 3e4be0220bd1d053c9e6b26b76ba92a7a36c925a
     function pular() {
         setPage(page + 4);
         setPages(pages +1)
@@ -26,7 +34,7 @@ const InitialPage: FC = (): React.ReactNode => {
       }
     return (
         <main className="w-[100vw] bg-bluebg bg-fixed overflow-x-hidden text-white flex justify-center">
-  
+            
             <div className="flex flex-col max-w-[1500px] w-[100vw] h-[100%] justify-center gap-5">
                 <header className="w-[100vw] h-[200px] max-w-[1500px] flex items-center justify-center tablet:mt-28">
                     <div className="absolute tablet:mr-0 mr-[1200px] top-1">
@@ -42,17 +50,37 @@ const InitialPage: FC = (): React.ReactNode => {
                             )}
                         
                             <div className="flex gap-3 text-bluetext tablet:w-[46vw] w-[300px]">
+<<<<<<< HEAD
                         
+=======
+                                
+                            <button onClick={() => {setSelected(4); setPage(0); setPages(1) }} className={`${selected === 4 ? "bg-blueborder text-black" : ""} hover:bg-blueborder shadow-blueshadow shadow-xl hover:text-black transtion-colors duration-300 border-4 border-blueborder bg-bluebg text-center p-2 px-4 font-bold flex flex-grow justify-center items-center`}>ABOUT-US</button>
+>>>>>>> 3e4be0220bd1d053c9e6b26b76ba92a7a36c925a
                           
                             </div>
                         </div>
                     </div>
                     <div className="flex flex-col items-center justify-center">
-                        <h1 className="font-bold tablet:text-[30px] text-[100px] textt-shadow">ADDON LIST</h1> 
+                        {storedUser != null ? (
+    <span>{user.username}</span>
+) : (
+    <span>{"login"}</span> 
+)}
+
+
+                        <h1 className="font-bold tablet:text-[30px] text-[100px] textt-shadow">ADDON LIST</h1>
+                        
                         <div className="flex gap-1 text-bluetext tablet:w-[95vw] w-[600px]">
+<<<<<<< HEAD
                             <button onClick={() => {setSelected(2); setPage(0); setPages(1) }} className={`${selected === 2 ? "bg-blueborder text-black" : ""} hover:bg-blueborder shadow-blueshadow shadow-xl hover:text-black transtion-colors duration-300 border-4 border-blueborder bg-bluebg text-center p-2 px-4 font-bold flex flex-grow justify-center items-center`}>MODPACKS</button>  
                             <button onClick={() => {setSelected(1); setPage(0); setPages(1) }}  className={`${selected === 1 ? "bg-blueborder text-black" : ""} hover:bg-blueborder shadow-blueshadow shadow-xl hover:text-black transtion-colors duration-300 border-4 border-blueborder bg-bluebg text-center p-2 px-4 font-bold flex flex-grow justify-center items-center`}>ADDONS</button>  
                             <button onClick={() => {setSelected(3); setPage(0); setPages(1) }} className={`${selected === 3 ? "bg-blueborder text-black" : ""} hover:bg-blueborder shadow-blueshadow shadow-xl hover:text-black transtion-colors duration-300 border-4 border-blueborder bg-bluebg text-center p-2 px-4 font-bold flex flex-grow justify-center items-center`}>USERS</button>
+=======
+                            
+                            <button onClick={() => {setSelected(2); setPage(0); setPages(1) }} className={`${selected === 2 ? "bg-blueborder text-black" : ""} hover:bg-blueborder shadow-blueshadow shadow-xl hover:text-black transtion-colors duration-300 border-4 border-blueborder bg-bluebg text-center p-2 px-4 font-bold flex flex-grow justify-center items-center`}>MODPACKS</button>  <img src="https://cdn.discordapp.com/attachments/1221560323350462474/1223387330359070829/azul_cristal01_1080_1080-removebg-preview.png?ex=662c203c&is=6619ab3c&hm=e210c486def9aac56261a59f12b8aedb713e99035f9ccb980459450d79ecc026&" className="max-w-[50px] tablet:w-[0vw]" />
+                            <button onClick={() => {setSelected(1); setPage(0); setPages(1) }}  className={`${selected === 1 ? "bg-blueborder text-black" : ""} hover:bg-blueborder shadow-blueshadow shadow-xl hover:text-black transtion-colors duration-300 border-4 border-blueborder bg-bluebg text-center p-2 px-4 font-bold flex flex-grow justify-center items-center`}>ADDONS</button>  <img src="https://cdn.discordapp.com/attachments/1221560323350462474/1223387330648342649/SKILLED_PICKAXE01_1080_1080-removebg-preview.png?ex=662c203d&is=6619ab3d&hm=9b540d303e71a0886c1fed6a12a0217b151b49de9286ea087e1b9da102578472&" className="max-w-[50px] tablet:w-[0vw]" />
+                            <button onClick={() => {setSelected(3); setPage(0); setPages(1) }} className={`${selected === 3 ? "bg-blueborder text-black" : ""} hover:bg-blueborder shadow-blueshadow shadow-xl hover:text-black transtion-colors duration-300 border-4 border-blueborder bg-bluebg text-center p-2 px-4 font-bold flex flex-grow justify-center items-center`}>WIKI</button>
+>>>>>>> 3e4be0220bd1d053c9e6b26b76ba92a7a36c925a
 
                             <img src="https://cdn.discordapp.com/attachments/1221560323350462474/1223387330359070829/azul_cristal01_1080_1080-removebg-preview.png?ex=6619ab3c&is=6607363c&hm=b1bd9802f6b5a4dde5f92a11b633d25894141bdf36517ddf0ca36960906a7637&" className="max-w-[0px] tablet:w-[95vw]" />
                         </div>
