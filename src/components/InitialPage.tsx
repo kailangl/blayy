@@ -53,8 +53,7 @@ const InitialPage: FC = (): React.ReactNode => {
                             <button onClick={() => {setSelected(2); setPage(0); setPages(1) }} className={`${selected === 2 ? "bg-blueborder text-black" : ""} hover:bg-blueborder shadow-blueshadow shadow-xl hover:text-black transtion-colors duration-300 border-4 border-blueborder bg-bluebg text-center p-2 px-4 font-bold flex flex-grow justify-center items-center`}>MODPACKS</button>  
                             <button onClick={() => {setSelected(1); setPage(0); setPages(1) }}  className={`${selected === 1 ? "bg-blueborder text-black" : ""} hover:bg-blueborder shadow-blueshadow shadow-xl hover:text-black transtion-colors duration-300 border-4 border-blueborder bg-bluebg text-center p-2 px-4 font-bold flex flex-grow justify-center items-center`}>ADDONS</button>  
                             <button onClick={() => {setSelected(3); setPage(0); setPages(1) }} className={`${selected === 3 ? "bg-blueborder text-black" : ""} hover:bg-blueborder shadow-blueshadow shadow-xl hover:text-black transtion-colors duration-300 border-4 border-blueborder bg-bluebg text-center p-2 px-4 font-bold flex flex-grow justify-center items-center`}>USERS</button>
-92a7a36c925a
-ordapp.com/attachments/1221560323350462474/1223387330359070829/azul_cristal01_1080_1080-removebg-preview.png?ex=6619ab3c&is=6607363c&hm=b1bd9802f6b5a4dde5f92a11b633d25894141bdf36517ddf0ca36960906a7637&" className="max-w-[0px] tablet:w-[95vw]" />
+
                         </div>
                     </div>
                 </header>
@@ -95,7 +94,7 @@ ordapp.com/attachments/1221560323350462474/1223387330359070829/azul_cristal01_10
                                 ((index < page + 4 && index >= page) || (user1.username.toLowerCase().includes(query.toLowerCase())) && query != "")  && (
                                 <Link key={index} to={user1.link} className="w-[150px] tablet:w-[95vw]  h-[150px] hover:shadow-blueshadow hover:shadow-2xl transition-all duration-300 border-4 border-blueborder flex items-center justify-center">
                                <div className="m-3 h-full w-full flex  border-4 border-t- borderww-b-2 border-blueborder">
-                                        <div className="bg-bluebg border-b-0 border-l-0 border-blueborder text-bluetext border-4 h-[30px] absolute mt-[128px] text-center2font-bold px-1">{user1.username}</div>
+                                        <div className="bg-bluebg border-b-0 border-l-0 border-blueborder text-bluetext border-4 h-[30px] absolute mt-[128px] text-center font-bold px-1">{user1.username}</div>
                                         <img className="w-full h-full object-cover" src={user1.image} />
                                         </div>
                                 </Link>
