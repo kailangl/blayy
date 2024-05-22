@@ -22,7 +22,7 @@ const LoginPage: React.FC = () => {
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
     const [error, setError] = useState('');
-    const formaddon = useState('https://docs.google.com/forms/d/e/1FAIpQLSckXYG8uo1cJK-hkgyQjt76FwicMnAgXQ8391qAYVio49kJ-g/viewform?embedded=true');
+    const form_addon = useState('https://docs.google.com/forms/d/e/1FAIpQLSckXYG8uo1cJK-hkgyQjt76FwicMnAgXQ8391qAYVio49kJ-g/viewform?embedded=true');
 
     const handleLogin = (e: React.FormEvent) => {
         e.preventDefault();
