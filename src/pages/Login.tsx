@@ -74,6 +74,26 @@ const LoginPage: React.FC = () => {
  {error && <p style={{ color: 'red' }}>{error}</p>}
 </form>
   ) : (
+            <form action="https://getform.io/f/zaxdnpya" method="POST">
+    <input type="text" name="name">
+    <input type="email" name="email">
+    <input type="text" name="message">
+    <!-- add hidden Honeypot input to prevent spams -->
+    <input type="hidden" name="_gotcha" style="display:none !important">
+    <!-- checkbox handle -->
+    <input type="checkbox" name="subscribe" value="yes" checked>
+    <input type="hidden" name="subscribe" value="no">
+    <!-- radio button handle -->
+    <input type="radio" name="gender" value="male" checked>
+    <input type="radio" name="gender" value="female">
+    <input type="radio" name="gender" value="other">
+    <!-- select field handle -->
+    <select name="work-experience">
+        <option value="one-year">0-1 years</option>
+        <option value="one-five-years">1-5 years</option>
+    </select>
+    <button type="submit">Send</button>
+</form>
 <div className='flex gap-1 text-bluetext tablet:w-[24vw] w-[150px]'><button onClick={() => leave()} type="submit" className="hover:bg-blueborder shadow-blueshadow shadow-xl hover:text-black transtion-colors duration-300 border-4 border-blueborder bg-bluebg text-center p-2 px-4 font-bold flex flex-grow justify-center items-center">Leave Account</button></div>
   )}
            
