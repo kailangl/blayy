@@ -22,6 +22,7 @@ const LoginPage: React.FC = () => {
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
     const [error, setError] = useState('');
+    const formaddon = useState('https://docs.google.com/forms/d/e/1FAIpQLSckXYG8uo1cJK-hkgyQjt76FwicMnAgXQ8391qAYVio49kJ-g/viewform?embedded=true');
 
     const handleLogin = (e: React.FormEvent) => {
         e.preventDefault();
@@ -76,13 +77,14 @@ const LoginPage: React.FC = () => {
   ) : (
         
 <div className='flex gap-1 text-bluetext tablet:w-[24vw] w-[150px]'>    
+    <div>
+        <iframe src={form_addon} width="432" height="297"></iframe>
+        </div>
     <button onClick={() => leave()} type="submit" className="hover:bg-blueborder shadow-blueshadow shadow-xl hover:text-black transtion-colors duration-300 border-4 border-blueborder bg-bluebg text-center p-2 px-4 font-bold flex flex-grow justify-center items-center">Leave Account</button></div>
   )}
            
             </section>
-            <div>
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSckXYG8uo1cJK-hkgyQjt76FwicMnAgXQ8391qAYVio49kJ-g/viewform?embedded=true" width="432" height="297"></iframe>
-        </div>
+            
         </div>
        
     );
