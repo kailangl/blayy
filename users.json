@@ -1,6 +1,13 @@
 {
     "users": [
     {
+    "username": "minecodebr",
+    "password": "12345678",
+    "description": "I create addons for minecraft bedrock",
+    "image": "https://drive.google.com/file/d/1wtoa63yICuIwFAO6YMAI3-EiIeXJujsg/preview",
+    "link": "/users/minecodebr"
+    }, 
+    {
     "username": "Blayy",
     "password": "k123",
     "description": "Proggamer, Artist & Designer",
