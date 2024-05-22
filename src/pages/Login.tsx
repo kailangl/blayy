@@ -80,6 +80,9 @@ const LoginPage: React.FC = () => {
   )}
            
             </section>
+            <div>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdID-_VLuEe4WkmQSDLDTlBCpHCBNv-nIHqH8z-XSHTH-e7gw/viewform?embedded=true"></iframe>
+        </div>
         </div>
        
     );
