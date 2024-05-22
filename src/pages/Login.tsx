@@ -74,9 +74,7 @@ const LoginPage: React.FC = () => {
  {error && <p style={{ color: 'red' }}>{error}</p>}
 </form>
   ) : (
-        <div>
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdID-_VLuEe4WkmQSDLDTlBCpHCBNv-nIHqH8z-XSHTH-e7gw/viewform?embedded=true"></iframe>
-        </div>
+        
 <div className='flex gap-1 text-bluetext tablet:w-[24vw] w-[150px]'>    
     <button onClick={() => leave()} type="submit" className="hover:bg-blueborder shadow-blueshadow shadow-xl hover:text-black transtion-colors duration-300 border-4 border-blueborder bg-bluebg text-center p-2 px-4 font-bold flex flex-grow justify-center items-center">Leave Account</button></div>
   )}
