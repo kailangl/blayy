@@ -81,7 +81,7 @@ const LoginPage: React.FC = () => {
            
             </section>
             <div>
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSckXYG8uo1cJK-hkgyQjt76FwicMnAgXQ8391qAYVio49kJ-g/viewform?embedded=true" width="640" height="1284" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSckXYG8uo1cJK-hkgyQjt76FwicMnAgXQ8391qAYVio49kJ-g/viewform?embedded=true" width="640" height="1284" marginheight="0" marginwidth="0">Carregando…</iframe>
         </div>
         </div>
        
