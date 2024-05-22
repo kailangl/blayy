@@ -21,7 +21,7 @@ const UserPage: FC = () => {
                 <a href="/" target="" className="hover:bg-blueborder shadow-blueshadow shadow-xl hover:text-black transtion-colors duration-300 border-4 border-blueborder text-bluetext cursor-pointer bg-bluebg text-center p-2 px-4 font-bold flex flex-grow justify-center mt-10 w-[400px] tablet:w-[95vw]">HOME</a>
             <h1 className="text-white tablet:text-[10vw] text-[100px] font-bold">{user1.username}</h1>
 
-            <img src={user1.image} alt="" className="max-w-[500px] tablet:w-[95vw]"/>  
+            <img src={user1.image} alt="" className="max-w-[500px] tablet:w-[47vw]"/>  
           
  
            
