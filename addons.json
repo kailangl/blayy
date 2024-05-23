@@ -1,6 +1,16 @@
 {
     "addons": [
         {
+            "title": "More Bows",
+            "description": "This addon makes your game more difficult",
+            "video": "https://www.youtube.com/embed/1t9sIAyNAZE?si=aDjiFN_mznFy1pTP",
+            "download": "https://syflink.com/MoreBowsv1",
+            "image": "https://i.ytimg.com/vi/1t9sIAyNAZE/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAOlI5ZH_ElbgBl9IhHEhIsP90UWA",
+            "link": "/addon/more-bows",
+            "tag": "survival, items, utility",
+            "creator": "MhQS"
+        }, 
+        {
             "title": "Harder Reality",
             "description": "This addon makes your game more difficult",
             "video": "https://www.youtube.com/embed/1t9sIAyNAZE?si=aDjiFN_mznFy1pTP",
