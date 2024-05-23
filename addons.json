@@ -1,6 +1,16 @@
 {
     "addons": [
         {
+            "title": "Simples Magnets",
+            "description": "ADD-ON THAT ADDS 5 NEW MAGNETS TO THE GAME.",
+            "video": "https://youtu.be/yQ5MEJJ6Ecw?si=g6KdRtpdz1dydf_5",
+            "download": "https://syflink.com/SimplesMagnetsv2",
+            "image": "https://i.ytimg.com/vi/yQ5MEJJ6Ecw/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC74mJQKkmqDf8YgdgXLgKaltg60w",
+            "link": "/addon/simples-magnets",
+            "tag": "survival, items, utility",
+            "creator": "MhQS"
+        }, 
+        {
             "title": "More Bows",
             "description": "ADD-ON THAT ADDS 4 NEW BOWS.",
             "video": "https://youtu.be/Dtu_BhUqpF0?si=OGOotb2173hbKNwT",
