@@ -1,5 +1,15 @@
 {
     "addons": [
+          {
+            "title": "MInerland",
+            "description": "With this addon you can teleport to a dimension that has all the overworld ores in large quantities, but don't forget to be careful with the challenges.",
+            "video": "https://www.youtube.com/embed/tNwdVPKBI-M?si=d9vTZQPs65dA4BGA",
+            "downloadl": "https://link-center.net/345156/minerland",
+            "image": "https://i.ytimg.com/vi/tNwdVPKBI-M/hqdefault.jpg?sqp=-oaymwEiCKgBEF5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLDkrM7JbAoLZhSp1KAjmVLnr9NvfQ",
+            "link": "/addon/minerland",
+            "tag": "survival, items, blocks, mobs",
+            "creator": "Blayy"
+        }, 
         {
             "title": "Angel Ring Add-On",
             "description": "ADD-ON THAT IMPLEMENT A RING YOU CAN TAKE THE FLIGHT OF THE CREATIVE IN SURVIVAL.",
