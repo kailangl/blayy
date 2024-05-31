@@ -21,27 +21,7 @@
             "link": "/addon/minerland",
             "tag": "survival, items, blocks, mobs",
             "creator": "Blayy"
-        }, 
-        {
-            "title": "Angel Ring Add-On",
-            "description": "ADD-ON THAT IMPLEMENT A RING YOU CAN TAKE THE FLIGHT OF THE CREATIVE IN SURVIVAL.",
-            "video": "https://www.youtube.com/embed/qfG21lZ7Jg8?si=XsOiUgz_oF8mh7Hd",
-            "download": "https://syflink.com/ANGELRING-ADD-ON",
-            "image": "https://i.ytimg.com/vi/qfG21lZ7Jg8/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBThdpSw3YLyEQOVN7q1BMJ4drvrg",
-            "link": "/addon/angel-ring",
-            "tag": "survival, items, utility",
-            "creator": "MhQS"
-        }, 
-        {
-            "title": "Simples Magnets",
-            "description": "ADD-ON THAT ADDS 5 NEW MAGNETS TO THE GAME.",
-            "video": "https://www.youtube.com/embed/yQ5MEJJ6Ecw?si=g6KdRtpdz1dydf_5",
-            "download": "https://link-center.net/990235/simples-magnets-v2",
-            "image": "https://i.ytimg.com/vi/yQ5MEJJ6Ecw/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC74mJQKkmqDf8YgdgXLgKaltg60w",
-            "link": "/addon/simples-magnets",
-            "tag": "survival, items, utility",
-            "creator": "MhQS"
-        }, 
+        },  
         {
             "title": "Harder Reality",
             "description": "This addon makes your game more difficult",
