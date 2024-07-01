@@ -1,6 +1,16 @@
 {
     "addons": [
         {
+            "title": "Fantastic Builder Wand",
+            "description": "This addon adds a building wand that will help you build in survival mode",
+            "video": "https://www.youtube.com/embed/BqMnRuhZrBo",        
+            "downloadl": "https://link-target.net/345156/fantastic-builder-wand",
+            "image": "https://modbay.org/uploads/posts/2023-12/insane-buffed-mobs-main-cover.png",
+            "link": "/addon/fantastic-builder-wand",
+            "tag": "items, survival, utility",
+            "creator": "Blayy"
+        },
+        {
             "title": "Insane Buffed Mobs",
             "description": "Insane Buffed mobs is an addon that adds special abilities to creatures in the game. These abilities are also applied to creatures from other addons.So far we have 20 different skills and buffs ",
             "video": "https://www.youtube.com/embed/BqMnRuhZrBo",
