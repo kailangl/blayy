@@ -1,7 +1,17 @@
 {
     "addons": [
         
-         
+               {            
+            "title": "Level Statistics",
+            "description": "This addon adds new Statistics from your game",
+            "video": "https://www.youtube.com/embed/0G2cMkEI90g?si=-Ooi_ETSWFJXuOWY",
+            "downloadll": "https://lootdest.org/s?bba7b2f2",
+            "downloadl": "https://link-hub.net/345156/level-statistics",
+            "image": "https://i.ytimg.com/vi/_kuHeki1np4/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA3CG_oQiq2v0A8XQozA5Q4d7QQ-A",
+            "link": "/addon/level-statistics",
+            "tag": "survival, hard",
+            "creator": "Blayy"
+        },
          {
             "title": "Angel Ring",
             "description": "This add-On was developed to work on version 1.20.80 of Minecraft Bedrock Edition. With these items, players will be able to enjoy the experience of flying in the game, providing new dynamics and exploration possibilities.",
@@ -68,18 +78,6 @@
             "tag": "survival, items, hard",
             "creator": "Blayy"
         }, 
-        {            
-            "title": "Level Statistics",
-            "description": "This addon adds new Statistics from your game",
-            "video": "https://www.youtube.com/embed/0G2cMkEI90g?si=-Ooi_ETSWFJXuOWY",
-            "downloadrp": "https://lootdest.com/s?Gq3Q",
-            "downloadbp": "https://loot-link.com/s?Gq5e",
-            "downloadl": "https://link-hub.net/345156/level-statistics",
-            "image": "https://i.ytimg.com/vi/_kuHeki1np4/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA3CG_oQiq2v0A8XQozA5Q4d7QQ-A",
-            "link": "/addon/level-statistics",
-            "tag": "survival, hard",
-            "creator": "Blayy"
-        },
         {
             "title": "Skilled Items",
             "description": "This addon adds items with special abilities, all items have an interesting mechanic that will contribute to your survival. All tools are enchanting and repairable, and each one has its advantages. \naa",
