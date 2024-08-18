@@ -19,9 +19,7 @@ const AddonPage: FC = () => {
         <>   
        
             <section className="w-[100vw] max-w-[1500vw] flex items-center justify-center overflow-x-hidden">
-                <head> 
-                    <script src="https://publisher.linkvertise.com/cdn/linkvertise.js"></script><script>linkvertise(345156, {whitelist: [], blacklist: []});</script>
-                </head>
+                <script src="https://publisher.linkvertise.com/cdn/linkvertise.js"></script><script>linkvertise(345156, {whitelist: [], blacklist: []});</script>
                 <div className="flex flex-col items-center justify-center text-center p-3">
                     <h1 className="text-white text-[20px] w-[50%] tablet:w-[95vw]">-+ {addon.tag} +-</h1>
                 <a href="/" target="" className="hover:bg-blueborder shadow-blueshadow shadow-xl hover:text-black transtion-colors duration-300 border-4 border-blueborder text-bluetext cursor-pointer bg-bluebg text-center p-2 px-4 font-bold flex flex-grow justify-center mt-10 w-[400px] tablet:w-[95vw]">HOME</a>
