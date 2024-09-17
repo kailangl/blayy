@@ -1,6 +1,15 @@
 {
     "addons": [
-        
+         {
+            "title": "Darkness Expansion",
+            "description": "This addon adds creatures and items with the theme of darkness.All items that are not obtained in the crafting table are dropped from mobs. most mobs spawn in the negative layers, but Blizzard only spawns in the dark dungeon.",
+            "video": "https://youtube.com/embed/5ZQB8o8UzPY",
+            "downloadl": "https://link-center.net/345156/darkness-expansion-050",
+            "image": "https://i9.ytimg.com/vi/5ZQB8o8UzPY/mqdefault.jpg?v=66e9dd81&sqp=CJS9p7cG&rs=AOn4CLAy-sBXdWXhqOytWbNQKbJq89Ptcw",
+            "link": "/addon/darkness-expansion",
+            "tag": "items, utility",
+            "creator": "Blayy"
+        },
                {            
             "title": "Level Statistics",
             "description": "This addon adds new Statistics from your game",
@@ -84,16 +93,7 @@
             "tag": "items, survival, utility, magic, tools, weapons",
             "creator": "Blayy"
         },
-        {
-            "title": "Darkness Expansion",
-            "description": "This addon adds creatures and items with the theme of darkness.All items that are not obtained in the crafting table are dropped from mobs. most mobs spawn in the negative layers, but Blizzard only spawns in the dark dungeon.",
-            "video": "https://youtube.com/embed/5ZQB8o8UzPY",
-            "downloadl": "https://link-center.net/345156/darkness-expansion-050",
-            "image": "https://i9.ytimg.com/vi/5ZQB8o8UzPY/mqdefault.jpg?v=66e9dd81&sqp=CJS9p7cG&rs=AOn4CLAy-sBXdWXhqOytWbNQKbJq89Ptcw",
-            "link": "/addon/darkness-expansion",
-            "tag": "items, utility",
-            "creator": "Blayy"
-        },
+       
         {
             "title": "Smartphone Addon",
             "description": "A phone that adds features never seen before in Minecraft Bedrock/Minecraft PE;Remember to activate the experiments for the addon to work perfectly! addon is in english, spanish and portuguese. THIS ADDON IS IN BETA!!!",
