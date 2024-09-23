@@ -86,6 +86,7 @@ const AddonPage: FC = () => {
                         
                         <button className="text-white text-[20px] w-[50%] tablet:w-[95vw]" onClick={() => cr()}>-+ {addon.creator} +-</button>
                     </div>
+                    <iframe src="https://discord.com/widget?id=1063869669494239242&theme=dark" width="40%" height="100%" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
                 </div>
              
             </section>
