@@ -9,6 +9,8 @@ export default {
         "bluebg": "#16131B",
         "blueborder": "#9DAEE5",
         "bluetext": "#CFA6FF",
+        "vipshadow": "#fff563",
+        "vipborder": "#ffaf03",
         "blueshadow": "#1C3468"
       },
     },
