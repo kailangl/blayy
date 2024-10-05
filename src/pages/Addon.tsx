@@ -81,7 +81,7 @@ const AddonPage: FC = () => {
       <a
         href={addon.vip}
         target="_blank"
-        className="hover:bg-vipborder shadow-vipshadow shadow-xl hover:text-black transition-colors duration-300 border-4 border-vipborder text-vipshadow cursor-pointer bg-vipshadow text-center p-2 px-4 font-bold flex flex-grow justify-center mt-10 w-[400px] tablet:w-[95vw]"
+        className="hover:bg-bluebg shadow-vipshadow shadow-xl hover:text-black transition-colors duration-300 border-4 border-vipborder text-vipshadow cursor-pointer bg-bluebg text-center p-2 px-4 font-bold flex flex-grow justify-center mt-10 w-[400px] tablet:w-[95vw]"
       >
         Direct Download (VIP)
       </a>
