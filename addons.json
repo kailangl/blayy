@@ -1,5 +1,16 @@
 {
     "addons": [
+        {
+            "title": "Fantastic Builder Wand",
+            "description": "This addon adds a building wand that will help you build in survival mode",
+            "video": "https://www.youtube.com/embed/TpWMrDDohsQ?si=srWvAOMqGi7kRmKV",        
+            "downloadl": "https://link-target.net/345156/fantastic-builder-wand",
+            "vip": "https://ko-fi.com/post/Fantastic-Builder-Wand-0-2-0-K3K114IGQ9", 
+            "image": "https://i.ytimg.com/vi_webp/ZezcgMgLuKc/hqdefault.webp",
+            "link": "/addon/fantastic-builder-wand",
+            "tag": "items, survival, utility",
+            "creator": "Blayy"
+        },
          {
             "title": "Darkness Expansion",
             "description": "This addon adds creatures and items with the theme of darkness.All items that are not obtained in the crafting table are dropped from mobs. most mobs spawn in the negative layers, but Blizzard only spawns in the dark dungeon.",
@@ -53,16 +64,7 @@
             "tag": "items, survival, utility, magic, tools, weapons",
             "creator": "Blayy"
         },
-        {
-            "title": "Fantastic Builder Wand",
-            "description": "This addon adds a building wand that will help you build in survival mode",
-            "video": "https://www.youtube.com/embed/TpWMrDDohsQ?si=srWvAOMqGi7kRmKV",        
-            "downloadl": "https://link-target.net/345156/fantastic-builder-wand",
-            "image": "https://i.ytimg.com/vi_webp/ZezcgMgLuKc/hqdefault.webp",
-            "link": "/addon/fantastic-builder-wand",
-            "tag": "items, survival, utility",
-            "creator": "Blayy"
-        },
+               
           {
             "title": "Minerland",
             "description": "With this addon you can teleport to a dimension that has all the overworld ores in large quantities, but don't forget to be careful with the challenges.",
