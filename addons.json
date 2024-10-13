@@ -1,5 +1,16 @@
 {
     "addons": [
+         {
+            "title": "Block Finders",
+            "description": "This addon adds items capable of locating literally any block in the game, including custom blocks from addons. The way the item works is very objective and easy, even showing how far the blocks found are from the central point.",
+            "video": "https://youtube.com/embed/LnjiLkTbqMU",        
+            "downloadl": "https://link-center.net/345156/block-finders",
+            "vip": "https://ko-fi.com/post/Block-Finders-0-1-0-S6S414PF8R", 
+            "image": "https://i9.ytimg.com/vi_webp/LnjiLkTbqMU/mqdefault.webp?v=670c45a9&sqp=COSMsbgG&rs=AOn4CLBUpYwVMPDCyGHyOrOGT6dotyzMVw",
+            "link": "/addon/block-finders",
+            "tag": "items, survival, utility",
+            "creator": "Blayy"
+        },
         {
             "title": "Fantastic Builder Wand",
             "description": "This addon adds a building wand that will help you build in survival mode",
